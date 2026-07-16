@@ -1,9 +1,9 @@
-# standard-nist-genai-profile
+# throughline-nist-genai-profile
 
 The **NIST AI RMF Generative AI Profile** (NIST AI 600-1) expressed as a
 [throughline](https://pypi.org/project/throughline/) **source** — a standalone, grounded
 requirements graph that a consuming project composes with
-[throughline-compose](https://github.com/timebacksolutions/throughline-compose).
+[throughline-compose](https://github.com/rhodium-org/throughline-compose).
 
 NIST AI 600-1 is a *cross-sectoral profile* of the AI RMF: for the Subcategories where
 generative AI raises distinct concerns, it lists **suggested Actions** and the **GenAI risks**
@@ -82,7 +82,7 @@ metadata carried on each Action is:
 
 **Editions are git tags of this one repo.** `v1.0` tags the NIST AI 600-1 (2024) edition; a
 future revision would be a new tag on this same repo. A consumer pins `genai@v1.0`. This is
-the same editions-as-tags model as `standard-asvs`, `standard-nist-ai-rmf` and `standard-wcag`.
+the same editions-as-tags model as `throughline-asvs`, `throughline-nist-ai-rmf` and `throughline-wcag`.
 
 ## Modelling conventions
 
@@ -102,16 +102,16 @@ In a consuming project's `throughline.toml`:
 
 ```toml
 [sources.genai]
-url = "https://github.com/timebacksolutions/standard-nist-genai-profile"
+url = "https://github.com/timebacksolutions/throughline-nist-genai-profile"
 ref = "v1.0"
 ```
 
 Then reference a suggested Action as `genai:SR-0001` from your own items. This Profile is the
 GenAI-specific **operational partner** to
-[`standard-nist-ai-rmf`](https://github.com/timebacksolutions/standard-nist-ai-rmf): the base
+[`throughline-nist-ai-rmf`](https://github.com/timebacksolutions/throughline-nist-ai-rmf): the base
 AI RMF frames the governance outcomes, this Profile lists the concrete GenAI Actions that
 satisfy them. It also pairs with
-[`standard-aisvs`](https://github.com/timebacksolutions/standard-aisvs), which verifies an AI
+[`throughline-aisvs`](https://github.com/timebacksolutions/throughline-aisvs), which verifies an AI
 application's *controls* — a consumer can compose all three.
 
 ## Licence
