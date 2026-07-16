@@ -3,7 +3,7 @@
 The **NIST AI RMF Generative AI Profile** (NIST AI 600-1) expressed as a
 [throughline](https://pypi.org/project/throughline/) **source** — a standalone, grounded
 requirements graph that a consuming project composes with
-[throughline-compose](https://github.com/rhodium-org/throughline-compose).
+[throughline-compose](https://github.com/timebacksolutions/throughline-compose).
 
 NIST AI 600-1 is a *cross-sectoral profile* of the AI RMF: for the Subcategories where
 generative AI raises distinct concerns, it lists **suggested Actions** and the **GenAI risks**
