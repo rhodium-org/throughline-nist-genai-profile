@@ -1,0 +1,11 @@
+uid: UR-0038
+type: user_requirement
+status: approved
+title: MEASURE 3.2
+text: Risk tracking approaches are considered for settings where AI risks are difficult to assess
+  using currently available measurement techniques or where metrics are not yet available.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 3.2

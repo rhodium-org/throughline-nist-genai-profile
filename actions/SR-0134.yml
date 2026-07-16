@@ -1,0 +1,16 @@
+uid: SR-0134
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.7-004
+text: Identify metrics that reflect the effectiveness of security measures, such as data provenance,
+  the number of unauthorized access attempts, inference, bypass, extraction, penetrations, or
+  provenance verification.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: MS-2.7-004
+  subcategory: MEASURE 2.7
+  genai_risks:
+  - Information Integrity
+  - Information Security

@@ -1,0 +1,16 @@
+uid: SR-0059
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-1.1-001
+text: When identifying intended purposes, consider factors such as internal vs. external use,
+  narrow vs. broad application scope, fine-tuning, and varieties of data sources (e.g., grounding,
+  retrieval-augmented generation).
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: MP-1.1-001
+  subcategory: MAP 1.1
+  genai_risks:
+  - Data Privacy
+  - Intellectual Property

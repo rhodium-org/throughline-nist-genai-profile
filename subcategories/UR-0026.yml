@@ -1,0 +1,13 @@
+uid: UR-0026
+type: user_requirement
+status: approved
+title: MEASURE 1.3
+text: Internal experts who did not serve as front-line developers for the system and/or independent
+  assessors are involved in regular assessments and updates. Domain experts, users, AI Actors
+  external to the team that developed or deployed the AI system, and affected communities are
+  consulted in support of assessments as necessary per organizational risk tolerance.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 1.3

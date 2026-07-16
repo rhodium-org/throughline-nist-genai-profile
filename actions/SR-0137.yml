@@ -1,0 +1,18 @@
+uid: SR-0137
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.7-007
+text: 'Perform AI red-teaming to assess resilience against: Abuse to facilitate attacks on other
+  systems (e.g., malicious code generation, enhanced phishing content), GAI attacks (e.g., prompt
+  injection), ML attacks (e.g., adversarial examples/prompts, data poisoning, membership inference,
+  model extraction, sponge examples).'
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: MS-2.7-007
+  subcategory: MEASURE 2.7
+  genai_risks:
+  - Information Security
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content

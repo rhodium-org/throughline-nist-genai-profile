@@ -1,0 +1,16 @@
+uid: SR-0200
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-4.1-001
+text: Collaborate with external researchers, industry experts, and community representatives
+  to maintain awareness of emerging best practices and technologies in measuring and managing
+  identified risks.
+links:
+- target: UR-0047
+  type: implements
+attrs:
+  source_ref: MG-4.1-001
+  subcategory: MANAGE 4.1
+  genai_risks:
+  - Information Integrity
+  - Harmful Bias and Homogenization

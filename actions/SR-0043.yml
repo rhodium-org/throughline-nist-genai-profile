@@ -1,0 +1,14 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.1-002
+text: Conduct joint educational activities and events in collaboration with third parties to
+  promote best practices for managing GAI risks.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: GV-6.1-002
+  subcategory: GOVERN 6.1
+  genai_risks:
+  - Value Chain and Component Integration

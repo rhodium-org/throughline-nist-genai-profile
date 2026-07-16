@@ -1,0 +1,15 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-4.1-003
+text: Establish policies, procedures, and processes for oversight functions (e.g., senior leadership,
+  legal, compliance, including internal evaluation) across the GAI lifecycle, from problem formulation
+  and supply chains to system decommission.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: GV-4.1-003
+  subcategory: GOVERN 4.1
+  genai_risks:
+  - Value Chain and Component Integration

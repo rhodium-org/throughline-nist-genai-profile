@@ -1,0 +1,16 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.1-001
+text: Categorize different types of GAI content with associated third-party rights (e.g., copyright,
+  intellectual property, data privacy).
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: GV-6.1-001
+  subcategory: GOVERN 6.1
+  genai_risks:
+  - Data Privacy
+  - Intellectual Property
+  - Value Chain and Component Integration

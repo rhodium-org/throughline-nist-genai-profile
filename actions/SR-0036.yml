@@ -1,0 +1,14 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-4.2-003
+text: Verify that downstream GAI system impacts (such as the use of third-party plugins) are
+  included in the impact documentation process.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: GV-4.2-003
+  subcategory: GOVERN 4.2
+  genai_risks:
+  - Value Chain and Component Integration

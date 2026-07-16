@@ -1,0 +1,15 @@
+uid: SR-0210
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-4.3-001
+text: Conduct after-action assessments for GAI system incidents to verify incident response
+  and recovery processes are followed and effective, including to follow procedures for communicating
+  incidents to relevant AI Actors and where applicable, relevant legal and regulatory bodies.
+links:
+- target: UR-0049
+  type: implements
+attrs:
+  source_ref: MG-4.3-001
+  subcategory: MANAGE 4.3
+  genai_risks:
+  - Information Security

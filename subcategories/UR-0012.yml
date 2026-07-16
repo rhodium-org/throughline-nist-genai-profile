@@ -1,0 +1,11 @@
+uid: UR-0012
+type: user_requirement
+status: approved
+title: GOVERN 4.3
+text: Organizational practices are in place to enable AI testing, identification of incidents,
+  and information sharing.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 4.3

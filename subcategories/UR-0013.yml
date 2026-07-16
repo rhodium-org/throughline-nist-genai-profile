@@ -1,0 +1,12 @@
+uid: UR-0013
+type: user_requirement
+status: approved
+title: GOVERN 5.1
+text: Organizational policies and practices are in place to collect, consider, prioritize, and
+  integrate feedback from those external to the team that developed or deployed the AI system
+  regarding the potential individual and societal impacts related to AI risks.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 5.1

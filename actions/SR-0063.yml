@@ -1,0 +1,16 @@
+uid: SR-0063
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-1.2-001
+text: Establish and empower interdisciplinary teams that reflect a wide range of capabilities,
+  competencies, demographic groups, domain expertise, educational backgrounds, lived experiences,
+  professions, and skills across the enterprise to Bias and Homogenization inform and conduct
+  risk measurement and management functions.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: MP-1.2-001
+  subcategory: MAP 1.2
+  genai_risks:
+  - Human-AI Configuration

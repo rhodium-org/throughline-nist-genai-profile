@@ -1,0 +1,16 @@
+uid: SR-0096
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-5.2-001
+text: Determine context-based measures to identify if new impacts are present due to the GAI
+  system, including regular engagements with downstream AI Actors to identify and quantify new
+  contexts of unanticipated impacts of GAI systems.
+links:
+- target: UR-0024
+  type: implements
+attrs:
+  source_ref: MP-5.2-001
+  subcategory: MAP 5.2
+  genai_risks:
+  - Human-AI Configuration
+  - Value Chain and Component Integration

@@ -1,0 +1,20 @@
+uid: SR-0117
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.3-004
+text: Utilize a purpose-built testing environment such as NIST Dioptra to empirically evaluate
+  GAI trustworthy characteristics.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: MS-2.3-004
+  subcategory: MEASURE 2.3
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Data Privacy
+  - Confabulation
+  - Information Integrity
+  - Information Security
+  - Dangerous, Violent, or Hateful Content
+  - Harmful Bias and Homogenization

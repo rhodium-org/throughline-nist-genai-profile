@@ -1,0 +1,16 @@
+uid: SR-0161
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-3.3-002
+text: Conduct studies to understand how end users perceive and interact with GAI content and
+  accompanying content provenance within context of use. Assess whether the content aligns with
+  their expectations and how they may act upon the information presented.
+links:
+- target: UR-0039
+  type: implements
+attrs:
+  source_ref: MS-3.3-002
+  subcategory: MEASURE 3.3
+  genai_risks:
+  - Human-AI Configuration
+  - Information Integrity

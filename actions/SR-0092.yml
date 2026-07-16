@@ -1,0 +1,15 @@
+uid: SR-0092
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-5.1-003
+text: Consider disclosing use of GAI to end users in relevant contexts, while considering the
+  objective of disclosure, the context of use, the likelihood and magnitude of the risk posed,
+  the audience of the disclosure, as well as the frequency of the disclosures.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: MP-5.1-003
+  subcategory: MAP 5.1
+  genai_risks:
+  - Human-AI Configuration

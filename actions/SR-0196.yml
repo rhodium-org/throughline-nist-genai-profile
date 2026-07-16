@@ -1,0 +1,15 @@
+uid: SR-0196
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-3.2-006
+text: Implement real-time monitoring processes for analyzing generated content performance and
+  trustworthiness characteristics related to content provenance to identify deviations from
+  the desired standards and trigger alerts for human intervention.
+links:
+- target: UR-0046
+  type: implements
+attrs:
+  source_ref: MG-3.2-006
+  subcategory: MANAGE 3.2
+  genai_risks:
+  - Information Integrity

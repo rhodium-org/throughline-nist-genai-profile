@@ -1,0 +1,15 @@
+uid: SR-0070
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-2.3-002
+text: Review and document accuracy, representativeness, relevance, suitability of data used
+  at different stages of AI life cycle.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: MP-2.3-002
+  subcategory: MAP 2.3
+  genai_risks:
+  - Harmful Bias and Homogenization
+  - Intellectual Property

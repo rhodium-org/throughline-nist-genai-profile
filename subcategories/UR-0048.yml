@@ -1,0 +1,11 @@
+uid: UR-0048
+type: user_requirement
+status: approved
+title: MANAGE 4.2
+text: Measurable activities for continual improvements are integrated into AI system updates
+  and include regular engagement with interested parties, including relevant AI Actors.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 4.2

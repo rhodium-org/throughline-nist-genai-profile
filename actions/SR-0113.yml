@@ -1,0 +1,16 @@
+uid: SR-0113
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.2-004
+text: Use techniques such as anonymization, differential privacy or other privacy- enhancing
+  technologies to minimize the risks associated with linking AI-generated content back to individual
+  human subjects.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: MS-2.2-004
+  subcategory: MEASURE 2.2
+  genai_risks:
+  - Data Privacy
+  - Human-AI Configuration

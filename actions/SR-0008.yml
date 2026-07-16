@@ -1,0 +1,15 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.3-005
+text: Maintain an updated hierarchy of identified and expected GAI risks connected to contexts
+  of GAI model advancement and use, potentially including specialized risk levels for GAI systems
+  that address issues such as model collapse and algorithmic monoculture.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: GV-1.3-005
+  subcategory: GOVERN 1.3
+  genai_risks:
+  - Harmful Bias and Homogenization

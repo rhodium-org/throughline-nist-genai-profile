@@ -1,0 +1,17 @@
+uid: SR-0166
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-4.2-002
+text: Evaluate GAI system performance in real-world scenarios to observe its behavior in practical
+  environments and reveal issues that might not surface in controlled and optimized testing
+  environments.
+links:
+- target: UR-0040
+  type: implements
+attrs:
+  source_ref: MS-4.2-002
+  subcategory: MEASURE 4.2
+  genai_risks:
+  - Human-AI Configuration
+  - Confabulation
+  - Information Security

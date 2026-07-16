@@ -1,0 +1,16 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-4.3-002
+text: 'Establish organizational practices to identify the minimum set of criteria necessary
+  for GAI system incident reporting such as: System ID (auto-generated most likely), Title,
+  Reporter, System/Source, Data Reported, Date of Incident, Description, Impact(s), Stakeholder(s)
+  Impacted.'
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: GV-4.3-002
+  subcategory: GOVERN 4.3
+  genai_risks:
+  - Information Security

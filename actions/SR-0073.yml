@@ -1,0 +1,14 @@
+uid: SR-0073
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-2.3-005
+text: Implement plans for GAI systems to undergo regular adversarial testing to identify vulnerabilities
+  and potential manipulation or misuse.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: MP-2.3-005
+  subcategory: MAP 2.3
+  genai_risks:
+  - Information Security

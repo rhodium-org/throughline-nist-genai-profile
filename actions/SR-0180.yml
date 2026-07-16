@@ -1,0 +1,20 @@
+uid: SR-0180
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.2-009
+text: Consider opportunities to responsibly use synthetic data and other privacy enhancing techniques
+  in GAI development, where appropriate and applicable, match the statistical properties of
+  real-world data without disclosing personally identifiable information or contributing to
+  homogenization.
+links:
+- target: UR-0042
+  type: implements
+attrs:
+  source_ref: MG-2.2-009
+  subcategory: MANAGE 2.2
+  genai_risks:
+  - Data Privacy
+  - Intellectual Property
+  - Information Integrity
+  - Confabulation
+  - Harmful Bias and Homogenization

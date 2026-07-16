@@ -1,0 +1,15 @@
+uid: SR-0074
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-3.4-001
+text: Evaluate whether GAI operators and end-users can accurately understand content lineage
+  and origin.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: MP-3.4-001
+  subcategory: MAP 3.4
+  genai_risks:
+  - Human-AI Configuration
+  - Information Integrity

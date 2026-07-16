@@ -1,0 +1,16 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.2-002
+text: Establish policies to evaluate risk-relevant capabilities of GAI and robustness of safety
+  measures, both prior to deployment and on an ongoing basis, through internal and external
+  evaluations.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: GV-1.2-002
+  subcategory: GOVERN 1.2
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Information Security

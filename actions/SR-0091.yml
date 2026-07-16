@@ -1,0 +1,18 @@
+uid: SR-0091
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-5.1-002
+text: Identify potential content provenance harms of GAI, such as misinformation or disinformation,
+  deepfakes, including NCII, or tampered content. Enumerate and rank risks based on their likelihood
+  and potential impact, and determine how well provenance solutions address specific risks and/or
+  harms.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: MP-5.1-002
+  subcategory: MAP 5.1
+  genai_risks:
+  - Information Integrity
+  - Dangerous, Violent, or Hateful Content
+  - Obscene, Degrading, and/or Abusive Content

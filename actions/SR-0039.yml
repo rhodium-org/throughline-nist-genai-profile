@@ -1,0 +1,15 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-4.3-003
+text: Verify information sharing and feedback mechanisms among individuals and organizations
+  regarding any negative impact from GAI systems.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: GV-4.3-003
+  subcategory: GOVERN 4.3
+  genai_risks:
+  - Information Integrity
+  - Data Privacy

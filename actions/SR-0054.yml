@@ -1,0 +1,22 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.2-003
+text: 'Establish incident response plans for third-party GAI technologies: Align incident response
+  plans with impacts enumerated in MAP 5.1; Communicate third-party GAI incident response plans
+  to all relevant AI Actors; Define ownership of GAI incident response functions; Rehearse third-party
+  GAI incident response plans at a regular cadence; Improve incident response plans based on
+  retrospective learning; Review incident response plans for alignment with relevant breach
+  reporting, data protection, data privacy, or other laws.'
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: GV-6.2-003
+  subcategory: GOVERN 6.2
+  genai_risks:
+  - Data Privacy
+  - Human-AI Configuration
+  - Information Security
+  - Value Chain and Component Integration
+  - Harmful Bias and Homogenization

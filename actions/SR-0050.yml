@@ -1,0 +1,25 @@
+uid: SR-0050
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.1-009
+text: 'Update and integrate due diligence processes for GAI acquisition and procurement vendor
+  assessments to include intellectual property, data privacy, security, and other risks. For
+  example, update processes to: Address solutions that may rely on embedded GAI technologies;
+  Address ongoing monitoring, assessments, and alerting, dynamic risk assessments, and real-time
+  reporting tools for monitoring third-party GAI risks; Consider policy adjustments across GAI
+  modeling libraries, tools and APIs, fine-tuned models, and embedded tools; Assess GAI vendors,
+  open-source or proprietary GAI tools, or GAI service providers against incident or vulnerability
+  databases.'
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: GV-6.1-009
+  subcategory: GOVERN 6.1
+  genai_risks:
+  - Data Privacy
+  - Human-AI Configuration
+  - Information Security
+  - Intellectual Property
+  - Value Chain and Component Integration
+  - Harmful Bias and Homogenization

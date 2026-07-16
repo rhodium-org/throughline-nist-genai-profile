@@ -1,0 +1,16 @@
+uid: SR-0093
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-5.1-004
+text: Prioritize GAI structured public feedback processes based on risk assessment estimates.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: MP-5.1-004
+  subcategory: MAP 5.1
+  genai_risks:
+  - Information Integrity
+  - CBRN Information or Capabilities
+  - Dangerous, Violent, or Hateful Content
+  - Harmful Bias and Homogenization

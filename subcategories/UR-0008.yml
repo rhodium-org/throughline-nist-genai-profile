@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: GOVERN 2.1
+text: Roles and responsibilities and lines of communication related to mapping, measuring, and
+  managing AI risks are documented and are clear to individuals and teams throughout the organization.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 2.1

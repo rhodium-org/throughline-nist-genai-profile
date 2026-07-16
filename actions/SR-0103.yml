@@ -1,0 +1,15 @@
+uid: SR-0103
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-1.1-006
+text: Implement continuous monitoring of GAI system impacts to identify whether GAI outputs
+  are equitable across various sub-populations. Seek active and direct feedback from affected
+  communities via structured feedback mechanisms or red- teaming to monitor and improve outputs.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: MS-1.1-006
+  subcategory: MEASURE 1.1
+  genai_risks:
+  - Harmful Bias and Homogenization

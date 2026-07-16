@@ -1,0 +1,16 @@
+uid: SR-0112
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.2-003
+text: Provide human subjects with options to withdraw participation or revoke their consent
+  for present or future use of their data in GAI applications.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: MS-2.2-003
+  subcategory: MEASURE 2.2
+  genai_risks:
+  - Data Privacy
+  - Human-AI Configuration
+  - Information Integrity

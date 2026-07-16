@@ -1,0 +1,14 @@
+uid: SR-0203
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-4.1-004
+text: Implement active learning techniques to identify instances where the model fails or produces
+  unexpected outputs.
+links:
+- target: UR-0047
+  type: implements
+attrs:
+  source_ref: MG-4.1-004
+  subcategory: MANAGE 4.1
+  genai_risks:
+  - Confabulation

@@ -1,0 +1,17 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.2-001
+text: Establish transparency policies and processes for documenting the origin and history of
+  training data and generated data for GAI applications to advance digital content transparency,
+  while balancing the proprietary nature of training approaches.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: GV-1.2-001
+  subcategory: GOVERN 1.2
+  genai_risks:
+  - Data Privacy
+  - Information Integrity
+  - Intellectual Property

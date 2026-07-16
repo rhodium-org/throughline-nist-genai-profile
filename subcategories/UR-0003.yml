@@ -1,0 +1,11 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: GOVERN 1.3
+text: Processes, procedures, and practices are in place to determine the needed level of risk
+  management activities based on the organization's risk tolerance.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 1.3

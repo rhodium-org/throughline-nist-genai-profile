@@ -1,0 +1,13 @@
+uid: SR-0148
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.10-003
+text: Verify deduplication of GAI training data samples, particularly regarding synthetic data.
+links:
+- target: UR-0034
+  type: implements
+attrs:
+  source_ref: MS-2.10-003
+  subcategory: MEASURE 2.10
+  genai_risks:
+  - Harmful Bias and Homogenization

@@ -1,0 +1,11 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: GOVERN 3.2
+text: Policies and procedures are in place to define and differentiate roles and responsibilities
+  for human-AI configurations and oversight of AI systems.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 3.2

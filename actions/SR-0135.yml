@@ -1,0 +1,17 @@
+uid: SR-0135
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.7-005
+text: Measure reliability of content authentication methods, such as watermarking, cryptographic
+  signatures, digital fingerprints, as well as access controls, conformity assessment, and model
+  integrity verification, which can help support the effective implementation of content provenance
+  techniques. Evaluate the rate of false positives and false negatives in content provenance,
+  as well as true positives and true negatives for verification.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: MS-2.7-005
+  subcategory: MEASURE 2.7
+  genai_risks:
+  - Information Integrity

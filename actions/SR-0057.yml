@@ -1,0 +1,15 @@
+uid: SR-0057
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.2-006
+text: Establish policies and procedures to test and manage risks related to rollover and fallback
+  technologies for GAI systems, acknowledging that rollover and fallback may include manual
+  processing.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: GV-6.2-006
+  subcategory: GOVERN 6.2
+  genai_risks:
+  - Information Integrity

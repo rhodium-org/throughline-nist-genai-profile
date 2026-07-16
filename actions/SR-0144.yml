@@ -1,0 +1,14 @@
+uid: SR-0144
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.9-001
+text: 'Apply and document ML explanation results such as: Analysis of embeddings, Counterfactual
+  prompts, Gradient-based attributions, Model compression/surrogate models, Occlusion/term reduction.'
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: MS-2.9-001
+  subcategory: MEASURE 2.9
+  genai_risks:
+  - Confabulation

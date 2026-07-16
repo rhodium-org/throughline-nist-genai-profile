@@ -1,0 +1,19 @@
+uid: SR-0125
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.6-002
+text: Assess existence or levels of harmful bias, intellectual property infringement, data privacy
+  violations, obscenity, extremism, violence, or CBRN information in system training data.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: MS-2.6-002
+  subcategory: MEASURE 2.6
+  genai_risks:
+  - Data Privacy
+  - Intellectual Property
+  - Obscene, Degrading, and/or Abusive Content
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content
+  - CBRN Information or Capabilities

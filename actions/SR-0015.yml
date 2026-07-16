@@ -1,0 +1,15 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.5-003
+text: Maintain a document retention policy to keep history for test, evaluation, validation,
+  and verification (TEVV), and digital content transparency methods for GAI.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: GV-1.5-003
+  subcategory: GOVERN 1.5
+  genai_risks:
+  - Information Integrity
+  - Intellectual Property

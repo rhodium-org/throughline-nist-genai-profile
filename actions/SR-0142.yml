@@ -1,0 +1,16 @@
+uid: SR-0142
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.8-003
+text: Use digital content transparency solutions to enable the documentation of each instance
+  where content is generated, modified, or shared to provide a tamper- proof history of the
+  content, promote transparency, and enable traceability. Robust version control systems can
+  also be applied to track changes across the AI lifecycle over time.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: MS-2.8-003
+  subcategory: MEASURE 2.8
+  genai_risks:
+  - Information Integrity

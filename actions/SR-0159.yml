@@ -1,0 +1,15 @@
+uid: SR-0159
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-3.2-001
+text: Establish processes for identifying emergent GAI system risks including consulting with
+  external AI Actors.
+links:
+- target: UR-0038
+  type: implements
+attrs:
+  source_ref: MS-3.2-001
+  subcategory: MEASURE 3.2
+  genai_risks:
+  - Human-AI Configuration
+  - Confabulation

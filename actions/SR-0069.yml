@@ -1,0 +1,16 @@
+uid: SR-0069
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-2.3-001
+text: Assess the accuracy, quality, reliability, and authenticity of GAI output by comparing
+  it to a set of known ground truth data and by using a variety of evaluation methods (e.g.,
+  human oversight and automated evaluation, proven cryptographic techniques, review of content
+  inputs).
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: MP-2.3-001
+  subcategory: MAP 2.3
+  genai_risks:
+  - Information Integrity

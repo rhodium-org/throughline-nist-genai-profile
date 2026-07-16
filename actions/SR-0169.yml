@@ -1,0 +1,16 @@
+uid: SR-0169
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-4.2-005
+text: Verify and document the incorporation of results of structured public feedback exercises
+  into design, implementation, deployment approval ("go"/"no-go" decisions), monitoring, and
+  decommission decisions.
+links:
+- target: UR-0040
+  type: implements
+attrs:
+  source_ref: MS-4.2-005
+  subcategory: MEASURE 4.2
+  genai_risks:
+  - Human-AI Configuration
+  - Information Security

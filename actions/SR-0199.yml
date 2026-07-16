@@ -1,0 +1,15 @@
+uid: SR-0199
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-3.2-009
+text: Use organizational risk tolerance to evaluate acceptable risks and performance metrics
+  and decommission or retrain pre-trained models that perform outside of defined limits.
+links:
+- target: UR-0046
+  type: implements
+attrs:
+  source_ref: MG-3.2-009
+  subcategory: MANAGE 3.2
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Confabulation

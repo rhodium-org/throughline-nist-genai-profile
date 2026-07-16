@@ -1,0 +1,14 @@
+uid: SR-0048
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.1-007
+text: Inventory all third-party entities with access to organizational content and establish
+  approved GAI technology and service provider lists.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: GV-6.1-007
+  subcategory: GOVERN 6.1
+  genai_risks:
+  - Value Chain and Component Integration

@@ -1,0 +1,18 @@
+uid: SR-0193
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-3.2-003
+text: Document sources and types of training data and their origins, potential biases present
+  in the data related to the GAI application and its content provenance, architecture, training
+  process of the pre-trained model including information on hyperparameters, training duration,
+  and any fine-tuning or retrieval-augmented generation processes applied.
+links:
+- target: UR-0046
+  type: implements
+attrs:
+  source_ref: MG-3.2-003
+  subcategory: MANAGE 3.2
+  genai_risks:
+  - Information Integrity
+  - Harmful Bias and Homogenization
+  - Intellectual Property

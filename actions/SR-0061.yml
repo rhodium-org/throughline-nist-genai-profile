@@ -1,0 +1,21 @@
+uid: SR-0061
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-1.1-003
+text: 'Document risk measurement plans to address identified risks. Plans may include, as applicable:
+  Individual and group cognitive biases (e.g., confirmation bias, funding bias, groupthink)
+  for AI Actors involved in the design, implementation, and use of GAI systems; Known past GAI
+  system incidents and failure modes; In-context use and foreseeable misuse, abuse, and off-label
+  use; Over reliance on quantitative metrics and methodologies without sufficient awareness
+  of their limitations in the context(s) of use; Standard measurement and structured human feedback
+  approaches; Anticipated human-AI configurations.'
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: MP-1.1-003
+  subcategory: MAP 1.1
+  genai_risks:
+  - Human-AI Configuration
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content

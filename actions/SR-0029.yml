@@ -1,0 +1,14 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-3.2-004
+text: Establish policies for user feedback mechanisms for GAI systems which include thorough
+  instructions and any mechanisms for recourse.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: GV-3.2-004
+  subcategory: GOVERN 3.2
+  genai_risks:
+  - Human-AI Configuration

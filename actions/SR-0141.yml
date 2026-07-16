@@ -1,0 +1,13 @@
+uid: SR-0141
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.8-002
+text: Document the instructions given to data annotators or AI red-teamers.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: MS-2.8-002
+  subcategory: MEASURE 2.8
+  genai_risks:
+  - Human-AI Configuration

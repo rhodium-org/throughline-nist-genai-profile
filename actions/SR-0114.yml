@@ -1,0 +1,15 @@
+uid: SR-0114
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.3-001
+text: Consider baseline model performance on suites of benchmarks when selecting a model for
+  fine tuning or enhancement with retrieval-augmented generation.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: MS-2.3-001
+  subcategory: MEASURE 2.3
+  genai_risks:
+  - Information Security
+  - Confabulation

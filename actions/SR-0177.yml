@@ -1,0 +1,14 @@
+uid: SR-0177
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.2-006
+text: Use feedback from internal and external AI Actors, users, individuals, and communities,
+  to assess impact of AI-generated content.
+links:
+- target: UR-0042
+  type: implements
+attrs:
+  source_ref: MG-2.2-006
+  subcategory: MANAGE 2.2
+  genai_risks:
+  - Human-AI Configuration

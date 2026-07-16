@@ -1,0 +1,12 @@
+uid: UR-0010
+type: user_requirement
+status: approved
+title: GOVERN 4.1
+text: Organizational policies and practices are in place to foster a critical thinking and safety-first
+  mindset in the design, development, deployment, and uses of AI systems to minimize potential
+  negative impacts.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 4.1

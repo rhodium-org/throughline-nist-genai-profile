@@ -1,0 +1,14 @@
+uid: SR-0160
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-3.3-001
+text: Conduct impact assessments on how AI-generated content might affect different social,
+  economic, and cultural groups.
+links:
+- target: UR-0039
+  type: implements
+attrs:
+  source_ref: MS-3.3-001
+  subcategory: MEASURE 3.3
+  genai_risks:
+  - Harmful Bias and Homogenization

@@ -1,0 +1,15 @@
+uid: SR-0204
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-4.1-005
+text: Share transparency reports with internal and external stakeholders that detail steps taken
+  to update the GAI system to enhance transparency and accountability.
+links:
+- target: UR-0047
+  type: implements
+attrs:
+  source_ref: MG-4.1-005
+  subcategory: MANAGE 4.1
+  genai_risks:
+  - Human-AI Configuration
+  - Harmful Bias and Homogenization

@@ -1,0 +1,16 @@
+uid: SR-0147
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.10-002
+text: Engage directly with end-users and other stakeholders to understand their expectations
+  and concerns regarding content provenance. Use this feedback to guide the design of provenance
+  data-tracking techniques.
+links:
+- target: UR-0034
+  type: implements
+attrs:
+  source_ref: MS-2.10-002
+  subcategory: MEASURE 2.10
+  genai_risks:
+  - Human-AI Configuration
+  - Information Integrity

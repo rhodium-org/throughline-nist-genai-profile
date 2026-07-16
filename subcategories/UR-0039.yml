@@ -1,0 +1,11 @@
+uid: UR-0039
+type: user_requirement
+status: approved
+title: MEASURE 3.3
+text: Feedback processes for end users and impacted communities to report problems and appeal
+  system outcomes are established and integrated into AI system evaluation metrics.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 3.3

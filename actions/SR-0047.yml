@@ -1,0 +1,14 @@
+uid: SR-0047
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.1-006
+text: Include clauses in contracts which allow an organization to evaluate third-party GAI processes
+  and standards.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: GV-6.1-006
+  subcategory: GOVERN 6.1
+  genai_risks:
+  - Information Integrity

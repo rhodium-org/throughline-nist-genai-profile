@@ -1,0 +1,11 @@
+uid: UR-0015
+type: user_requirement
+status: approved
+title: GOVERN 6.2
+text: Contingency processes are in place to handle failures or incidents in third-party data
+  or AI systems deemed to be high-risk.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 6.2

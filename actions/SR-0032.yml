@@ -1,0 +1,16 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-4.1-002
+text: Establish policies, procedures, and processes detailing risk measurement in context of
+  use with standardized measurement protocols and structured public feedback exercises such
+  as AI red-teaming or independent external evaluations.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: GV-4.1-002
+  subcategory: GOVERN 4.1
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Value Chain and Component Integration

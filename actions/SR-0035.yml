@@ -1,0 +1,13 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-4.2-002
+text: Include relevant AI Actors in the GAI system risk identification process.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: GV-4.2-002
+  subcategory: GOVERN 4.2
+  genai_risks:
+  - Human-AI Configuration

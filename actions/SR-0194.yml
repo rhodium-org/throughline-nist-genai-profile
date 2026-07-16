@@ -1,0 +1,13 @@
+uid: SR-0194
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-3.2-004
+text: Evaluate user reported problematic content and integrate feedback into system updates.
+links:
+- target: UR-0046
+  type: implements
+attrs:
+  source_ref: MG-3.2-004
+  subcategory: MANAGE 3.2
+  genai_risks:
+  - Dangerous, Violent, or Hateful Content

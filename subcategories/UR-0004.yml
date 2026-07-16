@@ -1,0 +1,11 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: GOVERN 1.4
+text: The risk management process and its outcomes are established through transparent policies,
+  procedures, and other controls based on organizational risk priorities.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 1.4

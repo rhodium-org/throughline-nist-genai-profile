@@ -1,0 +1,16 @@
+uid: SR-0123
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.5-006
+text: Regularly review security and safety guardrails, especially if the GAI system is being
+  operated in novel circumstances. This includes reviewing reasons why the GAI system was initially
+  assessed as being safe to deploy.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: MS-2.5-006
+  subcategory: MEASURE 2.5
+  genai_risks:
+  - Information Security
+  - Dangerous, Violent, or Hateful Content

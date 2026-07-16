@@ -1,0 +1,16 @@
+uid: SR-0198
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-3.2-008
+text: Use human moderation systems where appropriate to review generated content in accordance
+  with human-AI configuration policies established in the Govern function, aligned with socio-cultural
+  norms in the context of use, and for settings where AI models are demonstrated to perform
+  poorly.
+links:
+- target: UR-0046
+  type: implements
+attrs:
+  source_ref: MG-3.2-008
+  subcategory: MANAGE 3.2
+  genai_risks:
+  - Human-AI Configuration

@@ -1,0 +1,18 @@
+uid: SR-0192
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-3.2-002
+text: Document how pre-trained models have been adapted (e.g., fine-tuned, or retrieval-augmented
+  generation) for the specific generative task, including any data augmentations, parameter
+  adjustments, or other modifications. Access to un-tuned (baseline) models supports debugging
+  the relative influence of the pre- trained weights compared to the fine-tuned model weights
+  or other system updates.
+links:
+- target: UR-0046
+  type: implements
+attrs:
+  source_ref: MG-3.2-002
+  subcategory: MANAGE 3.2
+  genai_risks:
+  - Information Integrity
+  - Data Privacy

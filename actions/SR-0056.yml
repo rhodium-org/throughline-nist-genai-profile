@@ -1,0 +1,14 @@
+uid: SR-0056
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.2-005
+text: Establish policies and procedures that address GAI data redundancy, including model weights
+  and other system artifacts.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: GV-6.2-005
+  subcategory: GOVERN 6.2
+  genai_risks:
+  - Harmful Bias and Homogenization

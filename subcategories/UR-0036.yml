@@ -1,0 +1,11 @@
+uid: UR-0036
+type: user_requirement
+status: approved
+title: MEASURE 2.12
+text: Environmental impact and sustainability of AI model training and management activities
+  - as identified in the MAP function - are assessed and documented.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 2.12

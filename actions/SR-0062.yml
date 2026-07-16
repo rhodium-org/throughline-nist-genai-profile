@@ -1,0 +1,16 @@
+uid: SR-0062
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-1.1-004
+text: Identify and document foreseeable illegal uses or applications of the GAI system that
+  surpass organizational risk tolerances.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: MP-1.1-004
+  subcategory: MAP 1.1
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Dangerous, Violent, or Hateful Content
+  - Obscene, Degrading, and/or Abusive Content

@@ -1,0 +1,17 @@
+uid: SR-0107
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-1.3-001
+text: Define relevant groups of interest (e.g., demographic groups, subject matter experts,
+  experience with GAI technology) within the context of use as part of plans for gathering structured
+  public feedback.
+links:
+- target: UR-0026
+  type: implements
+attrs:
+  source_ref: MS-1.3-001
+  subcategory: MEASURE 1.3
+  genai_risks:
+  - Human-AI Configuration
+  - Harmful Bias and Homogenization
+  - CBRN Information or Capabilities

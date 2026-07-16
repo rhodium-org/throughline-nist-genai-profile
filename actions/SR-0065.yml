@@ -1,0 +1,14 @@
+uid: SR-0065
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-2.1-001
+text: Establish known assumptions and practices for determining data origin and content lineage,
+  for documentation and evaluation purposes.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: MP-2.1-001
+  subcategory: MAP 2.1
+  genai_risks:
+  - Information Integrity

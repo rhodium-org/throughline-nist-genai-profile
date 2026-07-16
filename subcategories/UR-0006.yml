@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: GOVERN 1.6
+text: Mechanisms are in place to inventory AI systems and are resourced according to organizational
+  risk priorities.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 1.6

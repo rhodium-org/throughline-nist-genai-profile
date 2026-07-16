@@ -1,0 +1,11 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: GOVERN 1.7
+text: Processes and procedures are in place for decommissioning and phasing out AI systems safely
+  and in a manner that does not increase risks or decrease the organization's trustworthiness.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 1.7

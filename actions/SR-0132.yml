@@ -1,0 +1,16 @@
+uid: SR-0132
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.7-002
+text: Benchmark GAI system security and resilience related to content provenance against industry
+  standards and best practices. Compare GAI system security features and content provenance
+  methods against industry state-of-the-art.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: MS-2.7-002
+  subcategory: MEASURE 2.7
+  genai_risks:
+  - Information Integrity
+  - Information Security

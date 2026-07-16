@@ -1,0 +1,17 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.1-004
+text: Draft and maintain well-defined contracts and service level agreements (SLAs) that specify
+  content ownership, usage rights, quality standards, security requirements, and content provenance
+  expectations for GAI systems.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: GV-6.1-004
+  subcategory: GOVERN 6.1
+  genai_risks:
+  - Information Integrity
+  - Information Security
+  - Intellectual Property

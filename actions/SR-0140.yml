@@ -1,0 +1,16 @@
+uid: SR-0140
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.8-001
+text: 'Compile statistics on actual policy violations, take-down requests, and intellectual
+  property infringement for organizational GAI systems: Analyze transparency reports across
+  demographic groups, languages groups.'
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: MS-2.8-001
+  subcategory: MEASURE 2.8
+  genai_risks:
+  - Intellectual Property
+  - Harmful Bias and Homogenization

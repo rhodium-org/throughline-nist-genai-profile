@@ -1,0 +1,14 @@
+uid: SR-0130
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.6-007
+text: Regularly evaluate GAI system vulnerabilities to possible circumvention of safety measures.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: MS-2.6-007
+  subcategory: MEASURE 2.6
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Information Security

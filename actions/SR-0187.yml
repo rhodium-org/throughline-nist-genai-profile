@@ -1,0 +1,17 @@
+uid: SR-0187
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-3.1-002
+text: Test GAI system value chain risks (e.g., data poisoning, malware, other software and hardware
+  vulnerabilities; labor practices; data privacy and localization compliance; geopolitical alignment).
+links:
+- target: UR-0045
+  type: implements
+attrs:
+  source_ref: MG-3.1-002
+  subcategory: MANAGE 3.1
+  genai_risks:
+  - Data Privacy
+  - Information Security
+  - Value Chain and Component Integration
+  - Harmful Bias and Homogenization

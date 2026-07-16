@@ -1,0 +1,11 @@
+uid: UR-0028
+type: user_requirement
+status: approved
+title: MEASURE 2.3
+text: AI system performance or assurance criteria are measured qualitatively or quantitatively
+  and demonstrated for conditions similar to deployment setting(s). Measures are documented.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 2.3

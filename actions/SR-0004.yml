@@ -1,0 +1,25 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.3-001
+text: 'Consider the following factors when updating or defining risk tiers for GAI: Abuses and
+  impacts to information integrity; Dependencies between GAI and other IT or data systems; Harm
+  to fundamental rights or public safety; Presentation of obscene, objectionable, offensive,
+  discriminatory, invalid or untruthful output; Psychological impacts to humans (e.g., anthropomorphization,
+  algorithmic aversion, emotional entanglement); Possibility for malicious use; Whether the
+  system introduces significant new security vulnerabilities; Anticipated system impact on some
+  groups compared to others; Unreliable decision making capabilities, validity, adaptability,
+  and variability of GAI system performance over time.'
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: GV-1.3-001
+  subcategory: GOVERN 1.3
+  genai_risks:
+  - Information Integrity
+  - Obscene, Degrading, and/or Abusive Content
+  - Value Chain and Component Integration
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content
+  - CBRN Information or Capabilities

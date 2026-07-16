@@ -1,0 +1,15 @@
+uid: SR-0174
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.2-003
+text: Evaluate feedback loops between GAI system content provenance and human reviewers, and
+  update where needed. Implement real-time monitoring systems to affirm that content provenance
+  protocols remain effective.
+links:
+- target: UR-0042
+  type: implements
+attrs:
+  source_ref: MG-2.2-003
+  subcategory: MANAGE 2.2
+  genai_risks:
+  - Information Integrity

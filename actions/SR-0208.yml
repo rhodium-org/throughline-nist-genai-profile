@@ -1,0 +1,17 @@
+uid: SR-0208
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-4.2-002
+text: Practice and follow incident response plans for addressing the generation of inappropriate
+  or harmful content and adapt processes based on findings to prevent future occurrences. Conduct
+  post-mortem analyses of incidents with relevant AI Actors, to understand the root causes and
+  implement preventive measures.
+links:
+- target: UR-0048
+  type: implements
+attrs:
+  source_ref: MG-4.2-002
+  subcategory: MANAGE 4.2
+  genai_risks:
+  - Human-AI Configuration
+  - Dangerous, Violent, or Hateful Content

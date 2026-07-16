@@ -1,0 +1,14 @@
+uid: SR-0115
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.3-002
+text: Evaluate claims of model capabilities using empirically validated methods.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: MS-2.3-002
+  subcategory: MEASURE 2.3
+  genai_risks:
+  - Confabulation
+  - Information Security

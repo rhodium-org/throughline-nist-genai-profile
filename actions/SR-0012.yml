@@ -1,0 +1,16 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.4-002
+text: Establish transparent acceptable use policies for GAI that address illegal use or applications
+  of GAI.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: GV-1.4-002
+  subcategory: GOVERN 1.4
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Obscene, Degrading, and/or Abusive Content
+  - Data Privacy

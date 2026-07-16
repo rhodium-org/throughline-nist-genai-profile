@@ -1,0 +1,17 @@
+uid: SR-0189
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-3.1-004
+text: Take reasonable measures to review training data for CBRN information, and intellectual
+  property, and where appropriate, remove it. Implement reasonable measures to prevent, flag,
+  or take other action in response to outputs that reproduce particular training data (e.g.,
+  plagiarized, trademarked, patented, licensed content or trade secret material).
+links:
+- target: UR-0045
+  type: implements
+attrs:
+  source_ref: MG-3.1-004
+  subcategory: MANAGE 3.1
+  genai_risks:
+  - Intellectual Property
+  - CBRN Information or Capabilities

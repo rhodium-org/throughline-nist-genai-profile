@@ -1,0 +1,18 @@
+uid: SR-0145
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.9-002
+text: 'Document GAI model details including: Proposed use and organizational value; Assumptions
+  and limitations, Data collection methodologies; Data provenance; Data quality; Model architecture
+  (e.g., convolutional neural network, transformers, etc.); Optimization objectives; Training
+  algorithms; RLHF approaches; Fine-tuning or retrieval-augmented generation approaches; Evaluation
+  data; Ethical considerations; Legal and regulatory requirements.'
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: MS-2.9-002
+  subcategory: MEASURE 2.9
+  genai_risks:
+  - Information Integrity
+  - Harmful Bias and Homogenization

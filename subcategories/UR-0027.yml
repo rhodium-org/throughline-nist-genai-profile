@@ -1,0 +1,11 @@
+uid: UR-0027
+type: user_requirement
+status: approved
+title: MEASURE 2.2
+text: Evaluations involving human subjects meet applicable requirements (including human subject
+  protection) and are representative of the relevant population.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 2.2

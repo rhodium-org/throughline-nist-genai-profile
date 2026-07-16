@@ -1,0 +1,13 @@
+uid: SR-0173
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.2-002
+text: Document training data sources to trace the origin and provenance of AI- generated content.
+links:
+- target: UR-0042
+  type: implements
+attrs:
+  source_ref: MG-2.2-002
+  subcategory: MANAGE 2.2
+  genai_risks:
+  - Information Integrity

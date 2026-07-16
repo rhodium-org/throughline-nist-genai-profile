@@ -1,0 +1,14 @@
+uid: SR-0055
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.2-004
+text: Establish policies and procedures for continuous monitoring of third-party GAI systems
+  in deployment.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: GV-6.2-004
+  subcategory: GOVERN 6.2
+  genai_risks:
+  - Value Chain and Component Integration

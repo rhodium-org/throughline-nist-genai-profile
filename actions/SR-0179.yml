@@ -1,0 +1,15 @@
+uid: SR-0179
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.2-008
+text: Use structured feedback mechanisms to solicit and capture user input about AI- generated
+  content to detect subtle shifts in quality or alignment with community and societal values.
+links:
+- target: UR-0042
+  type: implements
+attrs:
+  source_ref: MG-2.2-008
+  subcategory: MANAGE 2.2
+  genai_risks:
+  - Human-AI Configuration
+  - Harmful Bias and Homogenization

@@ -1,0 +1,16 @@
+uid: SR-0064
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-1.2-002
+text: Verify that data or benchmarks used in risk measurement, and users, participants, or subjects
+  involved in structured GAI public feedback exercises are representative of diverse in-context
+  user populations.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: MP-1.2-002
+  subcategory: MAP 1.2
+  genai_risks:
+  - Human-AI Configuration
+  - Harmful Bias and Homogenization

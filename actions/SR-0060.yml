@@ -1,0 +1,17 @@
+uid: SR-0060
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-1.1-002
+text: 'Determine and document the expected and acceptable GAI system context of use in collaboration
+  with socio-cultural and other domain experts, by assessing: Assumptions and limitations; Direct
+  value to the organization; Intended operational environment and observed usage patterns; Potential
+  positive and negative impacts to individuals, public safety, groups, communities, organizations,
+  democratic institutions, and the physical environment; Social norms and expectations.'
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: MP-1.1-002
+  subcategory: MAP 1.1
+  genai_risks:
+  - Harmful Bias and Homogenization

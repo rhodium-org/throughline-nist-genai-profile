@@ -1,0 +1,19 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-3.2-002
+text: 'Consider adjustment of organizational roles and components across lifecycle stages of
+  large or complex GAI systems, including: Test and evaluation, validation, and red-teaming
+  of GAI systems; GAI content moderation; GAI system development and engineering; Increased
+  accessibility of GAI tools, interfaces, and and Homogenization systems, Incident response
+  and containment.'
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: GV-3.2-002
+  subcategory: GOVERN 3.2
+  genai_risks:
+  - Human-AI Configuration
+  - Information Security
+  - Harmful Bias and Homogenization

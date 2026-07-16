@@ -1,0 +1,15 @@
+uid: SR-0090
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-5.1-001
+text: Apply TEVV practices for content provenance (e.g., probing a system's synthetic data generation
+  capabilities for potential misuse or vulnerabilities.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: MP-5.1-001
+  subcategory: MAP 5.1
+  genai_risks:
+  - Information Integrity
+  - Information Security

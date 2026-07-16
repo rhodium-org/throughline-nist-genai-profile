@@ -1,0 +1,17 @@
+uid: SR-0176
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.2-005
+text: Engage in due diligence to analyze GAI output for harmful content, potential misinformation,
+  and CBRN-related or NCII content.
+links:
+- target: UR-0042
+  type: implements
+attrs:
+  source_ref: MG-2.2-005
+  subcategory: MANAGE 2.2
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Obscene, Degrading, and/or Abusive Content
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content

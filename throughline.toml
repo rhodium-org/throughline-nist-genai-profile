@@ -1,0 +1,77 @@
+[project]
+name = "NIST AI RMF Generative AI Profile (NIST AI 600-1) — throughline source"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `genai`) and referencing
+# suggested actions as `genai:SR-0007`. The UIDs here are this source's own and immutable;
+# the NIST AI 600-1 identifier (the Subcategory `GOVERN 4.3`, the Action `GV-4.3-001`) lives
+# in `attrs.source_ref`, never in the UID.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+# The "why" spine is MULTI-ROOT by design — the same four Functions as the base AI RMF.
+# The Generative AI Profile (NIST AI 600-1) is a *cross-sectoral profile* that hangs
+# GenAI-specific suggested Actions onto the existing AI RMF Core. Its actionable content
+# lives at the Subcategory level, so this source models three levels:
+#   - four co-equal **root** intents (INT-0001..INT-0004) = the Functions GOVERN / MAP /
+#     MEASURE / MANAGE. These are four genuinely different reasons the framework exists
+#     (govern the programme / map the context and risks / measure and analyse them / manage
+#     and respond), NOT one "manage GenAI risk" umbrella.
+#   - each Subcategory that the Profile gives Actions for (`GOVERN 4.3`) is a
+#     user_requirement that `derives_from` its own Function, carrying the Subcategory's AI
+#     RMF outcome statement as its `text`.
+#   - each suggested Action (`GV-4.3-001`) is a system_requirement that `implements` its
+#     Subcategory, carrying the Action text and — in `attrs.genai_risks` — the GenAI risks
+#     it addresses. A Subcategory belongs to exactly one Function, so an Action grounds to
+#     its Function through implements->derives_from with no extra edge.
+#
+# The 12 GenAI risks (CBRN Information or Capabilities, Confabulation, Dangerous/Violent/
+# Hateful Content, Data Privacy, Environmental, Harmful Bias and Homogenization, Human-AI
+# Configuration, Information Integrity, Information Security, Intellectual Property, Obscene/
+# Degrading/Abusive Content, Value Chain and Component Integration) are a **many-to-many
+# cross-cut** over the actions (one action addresses several risks; one risk is addressed by
+# many actions across all four Functions). They are therefore a `attrs.genai_risks`
+# sub-filter, NOT roots — making them roots would either duplicate actions or flatten the
+# Function spine, exactly the anti-pattern the four-Function split exists to avoid.
+
+[types.user_requirement]
+# source_ref = the AI RMF Subcategory id the Profile gives Actions for ("GOVERN 4.3").
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+# source_ref = the NIST AI 600-1 suggested-Action id ("GV-4.3-001"). NIST AI 600-1 does not
+# grade Actions by level; instead each Action carries the GenAI risks it addresses in
+# attrs.genai_risks (a list) and its parent Subcategory id in attrs.subcategory. Editions
+# (1.0, and any future revision) are git tags of this one repo.
+attrs.source_ref = { required = true }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+# `tl docs` regenerates docs/*.md from the graph; `tl docs --check` gates it.
+[docs]
+paths = ["README.md", "docs/*.md"]

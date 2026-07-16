@@ -1,0 +1,16 @@
+uid: SR-0136
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.7-006
+text: Measure the rate at which recommendations from security checks and incidents are implemented.
+  Assess how quickly the AI system can adapt and improve based on lessons learned from security
+  incidents and feedback.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: MS-2.7-006
+  subcategory: MEASURE 2.7
+  genai_risks:
+  - Information Integrity
+  - Information Security

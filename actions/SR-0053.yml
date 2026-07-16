@@ -1,0 +1,15 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.2-002
+text: Document incidents involving third-party GAI data and systems, including open- data and
+  open-source software.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: GV-6.2-002
+  subcategory: GOVERN 6.2
+  genai_risks:
+  - Intellectual Property
+  - Value Chain and Component Integration

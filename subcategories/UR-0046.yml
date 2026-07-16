@@ -1,0 +1,11 @@
+uid: UR-0046
+type: user_requirement
+status: approved
+title: MANAGE 3.2
+text: Pre-trained models which are used for development are monitored as part of AI system regular
+  monitoring and maintenance.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 3.2

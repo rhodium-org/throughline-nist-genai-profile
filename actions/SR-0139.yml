@@ -1,0 +1,14 @@
+uid: SR-0139
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.7-009
+text: Regularly assess and verify that security measures remain effective and have not been
+  compromised.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: MS-2.7-009
+  subcategory: MEASURE 2.7
+  genai_risks:
+  - Information Security

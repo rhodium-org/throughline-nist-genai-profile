@@ -1,0 +1,12 @@
+uid: UR-0014
+type: user_requirement
+status: approved
+title: GOVERN 6.1
+text: Policies and procedures are in place that address AI risks associated with third-party
+  entities, including risks of infringement of a third-party's intellectual property or other
+  rights.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 6.1

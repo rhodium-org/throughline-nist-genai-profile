@@ -1,0 +1,12 @@
+uid: UR-0040
+type: user_requirement
+status: approved
+title: MEASURE 4.2
+text: Measurement results regarding AI system trustworthiness in deployment context(s) and across
+  the AI lifecycle are informed by input from domain experts and relevant AI Actors to validate
+  whether the system is performing consistently as intended. Results are documented.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 4.2

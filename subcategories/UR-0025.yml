@@ -1,0 +1,12 @@
+uid: UR-0025
+type: user_requirement
+status: approved
+title: MEASURE 1.1
+text: Approaches and metrics for measurement of AI risks enumerated during the MAP function
+  are selected for implementation starting with the most significant AI risks. The risks or
+  trustworthiness characteristics that will not - or cannot - be measured are properly documented.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 1.1

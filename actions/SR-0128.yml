@@ -1,0 +1,16 @@
+uid: SR-0128
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.6-005
+text: Verify that GAI system architecture can monitor outputs and performance, and handle, recover
+  from, and repair errors when security anomalies, threats and impacts are detected.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: MS-2.6-005
+  subcategory: MEASURE 2.6
+  genai_risks:
+  - Confabulation
+  - Information Integrity
+  - Information Security

@@ -1,0 +1,19 @@
+uid: SR-0181
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.3-001
+text: 'Develop and update GAI system incident response and recovery plans and procedures to
+  address the following: Review and maintenance of policies and procedures to account for newly
+  encountered uses; Review and maintenance of policies and procedures for detection of unanticipated
+  uses; Verify response and recovery plans account for the GAI system value chain; Verify response
+  and Integration recovery plans are updated for and include necessary details to communicate
+  with downstream GAI system Actors: Points-of-Contact (POC), Contact information, notification
+  format.'
+links:
+- target: UR-0043
+  type: implements
+attrs:
+  source_ref: MG-2.3-001
+  subcategory: MANAGE 2.3
+  genai_risks:
+  - Value Chain and Component Integration

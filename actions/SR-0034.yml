@@ -1,0 +1,15 @@
+uid: SR-0034
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-4.2-001
+text: Establish terms of use and terms of service for GAI systems.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: GV-4.2-001
+  subcategory: GOVERN 4.2
+  genai_risks:
+  - Intellectual Property
+  - Dangerous, Violent, or Hateful Content
+  - Obscene, Degrading, and/or Abusive Content

@@ -1,0 +1,14 @@
+uid: SR-0072
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-2.3-004
+text: Develop and implement testing techniques to identify GAI produced content (e.g., synthetic
+  media) that might be indistinguishable from human-generated content.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: MP-2.3-004
+  subcategory: MAP 2.3
+  genai_risks:
+  - Information Integrity

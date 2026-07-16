@@ -1,0 +1,15 @@
+uid: SR-0078
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-3.4-005
+text: Implement systems to continually monitor and track the outcomes of human-GAI configurations
+  for future refinement and improvements.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: MP-3.4-005
+  subcategory: MAP 3.4
+  genai_risks:
+  - Human-AI Configuration
+  - Information Integrity

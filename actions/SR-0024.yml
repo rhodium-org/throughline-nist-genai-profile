@@ -1,0 +1,16 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-2.1-004
+text: When systems may raise national security risks, involve national security professionals
+  in mapping, measuring, and managing those risks.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: GV-2.1-004
+  subcategory: GOVERN 2.1
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Dangerous, Violent, or Hateful Content
+  - Information Security

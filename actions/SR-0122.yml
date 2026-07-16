@@ -1,0 +1,14 @@
+uid: SR-0122
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.5-005
+text: Verify GAI system training data and TEVV data provenance, and that fine-tuning or retrieval-augmented
+  generation data is grounded.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: MS-2.5-005
+  subcategory: MEASURE 2.5
+  genai_risks:
+  - Information Integrity

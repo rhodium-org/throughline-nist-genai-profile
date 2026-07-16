@@ -1,0 +1,14 @@
+uid: SR-0209
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-4.2-003
+text: Use visualizations or other methods to represent GAI model behavior to ease non-technical
+  stakeholders understanding of GAI system functionality.
+links:
+- target: UR-0048
+  type: implements
+attrs:
+  source_ref: MG-4.2-003
+  subcategory: MANAGE 4.2
+  genai_risks:
+  - Human-AI Configuration

@@ -1,0 +1,16 @@
+uid: SR-0110
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.2-001
+text: Assess and manage statistical biases related to GAI content provenance through techniques
+  such as re-sampling, re-weighting, or adversarial training.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: MS-2.2-001
+  subcategory: MEASURE 2.2
+  genai_risks:
+  - Information Integrity
+  - Information Security
+  - Harmful Bias and Homogenization

@@ -1,0 +1,16 @@
+uid: SR-0083
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-4.1-004
+text: Document training data curation policies, to the extent possible and according to applicable
+  laws and policies.
+links:
+- target: UR-0022
+  type: implements
+attrs:
+  source_ref: MP-4.1-004
+  subcategory: MAP 4.1
+  genai_risks:
+  - Intellectual Property
+  - Data Privacy
+  - Obscene, Degrading, and/or Abusive Content

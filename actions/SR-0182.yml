@@ -1,0 +1,16 @@
+uid: SR-0182
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.4-001
+text: Establish and maintain communication plans to inform AI stakeholders as part of the deactivation
+  or disengagement process of a specific GAI system (including for open-source models) or context
+  of use, including reasons, workarounds, user access removal, alternative processes, contact
+  information, etc.
+links:
+- target: UR-0044
+  type: implements
+attrs:
+  source_ref: MG-2.4-001
+  subcategory: MANAGE 2.4
+  genai_risks:
+  - Human-AI Configuration

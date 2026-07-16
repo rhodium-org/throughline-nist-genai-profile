@@ -1,0 +1,19 @@
+uid: SR-0087
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-4.1-008
+text: Re-evaluate risks when adapting GAI models to new domains. Additionally, establish warning
+  systems to determine if a GAI system is being used in a new domain where previous assumptions
+  (relating to context of use or mapped risks such as security, and safety) may no longer hold.
+links:
+- target: UR-0022
+  type: implements
+attrs:
+  source_ref: MP-4.1-008
+  subcategory: MAP 4.1
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Intellectual Property
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content
+  - Data Privacy

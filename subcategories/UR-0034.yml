@@ -1,0 +1,10 @@
+uid: UR-0034
+type: user_requirement
+status: approved
+title: MEASURE 2.10
+text: Privacy risk of the AI system - as identified in the MAP function - is examined and documented.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 2.10

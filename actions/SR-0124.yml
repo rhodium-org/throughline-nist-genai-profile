@@ -1,0 +1,18 @@
+uid: SR-0124
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.6-001
+text: Assess adverse impacts, including health and wellbeing impacts for value chain or other
+  AI Actors that are exposed to sexually explicit, offensive, or violent information during
+  GAI training and maintenance.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: MS-2.6-001
+  subcategory: MEASURE 2.6
+  genai_risks:
+  - Human-AI Configuration
+  - Obscene, Degrading, and/or Abusive Content
+  - Value Chain and Component Integration
+  - Dangerous, Violent, or Hateful Content

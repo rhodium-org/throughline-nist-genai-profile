@@ -1,0 +1,15 @@
+uid: SR-0044
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-6.1-003
+text: Develop and validate approaches for measuring the success of content provenance management
+  efforts with third parties (e.g., incidents detected and response times).
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: GV-6.1-003
+  subcategory: GOVERN 6.1
+  genai_risks:
+  - Information Integrity
+  - Value Chain and Component Integration

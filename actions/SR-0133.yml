@@ -1,0 +1,16 @@
+uid: SR-0133
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.7-003
+text: Conduct user surveys to gather user satisfaction with the AI-generated content and user
+  perceptions of content authenticity. Analyze user feedback to identify concerns and/or current
+  literacy levels related to content provenance and understanding of labels on content.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: MS-2.7-003
+  subcategory: MEASURE 2.7
+  genai_risks:
+  - Human-AI Configuration
+  - Information Integrity

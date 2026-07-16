@@ -1,0 +1,11 @@
+uid: UR-0045
+type: user_requirement
+status: approved
+title: MANAGE 3.1
+text: AI risks and benefits from third-party resources are regularly monitored, and risk controls
+  are applied and documented.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 3.1

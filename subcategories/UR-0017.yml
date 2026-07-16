@@ -1,0 +1,12 @@
+uid: UR-0017
+type: user_requirement
+status: approved
+title: MAP 1.2
+text: Interdisciplinary AI Actors, competencies, skills, and capacities for establishing context
+  reflect demographic diversity and broad domain and user experience expertise, and their participation
+  is documented. Opportunities for interdisciplinary collaboration are prioritized.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: MAP 1.2

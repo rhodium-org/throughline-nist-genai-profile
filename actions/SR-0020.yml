@@ -1,0 +1,18 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.7-002
+text: 'Consider the following factors when decommissioning GAI systems: Data retention requirements;
+  Data security, e.g., containment, protocols, Data leakage after decommissioning; Dependencies
+  between upstream, downstream, or other Information Security; data, internet of things (IOT)
+  or AI systems; Use of open-source data or models; and Component Integration Users'' emotional
+  entanglement with GAI functions.'
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: GV-1.7-002
+  subcategory: GOVERN 1.7
+  genai_risks:
+  - Human-AI Configuration
+  - Value Chain and Component Integration

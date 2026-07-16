@@ -1,0 +1,19 @@
+uid: SR-0158
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.13-001
+text: 'Create measurement error models for pre-deployment metrics to demonstrate construct validity
+  for each metric (i.e., does the metric effectively operationalize the desired concept): Measure
+  or estimate, and document, biases or statistical variance in applied metrics or structured
+  human feedback processes; Leverage domain expertise when modeling complex societal constructs
+  such as hateful content.'
+links:
+- target: UR-0037
+  type: implements
+attrs:
+  source_ref: MS-2.13-001
+  subcategory: MEASURE 2.13
+  genai_risks:
+  - Confabulation
+  - Information Integrity
+  - Harmful Bias and Homogenization

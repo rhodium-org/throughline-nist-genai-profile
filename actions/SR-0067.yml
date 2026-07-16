@@ -1,0 +1,15 @@
+uid: SR-0067
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-2.2-001
+text: Identify and document how the system relies on upstream data sources, including for content
+  provenance, and if it serves as an upstream dependency for other systems.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: MP-2.2-001
+  subcategory: MAP 2.2
+  genai_risks:
+  - Information Integrity
+  - Value Chain and Component Integration

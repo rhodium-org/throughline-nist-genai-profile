@@ -1,0 +1,15 @@
+uid: SR-0151
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.11-003
+text: Identify the classes of individuals, groups, or environmental ecosystems which might be
+  impacted by GAI systems through direct engagement with potentially impacted communities.
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: MS-2.11-003
+  subcategory: MEASURE 2.11
+  genai_risks:
+  - Environmental
+  - Harmful Bias and Homogenization

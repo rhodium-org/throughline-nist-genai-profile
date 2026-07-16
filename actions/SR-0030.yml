@@ -1,0 +1,14 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-3.2-005
+text: Engage in threat modeling to anticipate potential risks from GAI systems.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: GV-3.2-005
+  subcategory: GOVERN 3.2
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Information Security

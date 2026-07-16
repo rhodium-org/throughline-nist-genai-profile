@@ -1,0 +1,21 @@
+uid: SR-0084
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-4.1-005
+text: 'Establish policies for collection, retention, and minimum quality of data, in consideration
+  of the following risks: Disclosure of inappropriate CBRN information; Use of Illegal or dangerous
+  content; Offensive cyber capabilities; Training data imbalances that could give rise to harmful
+  biases; Leak of personally identifiable information, including facial likenesses of individuals.'
+links:
+- target: UR-0022
+  type: implements
+attrs:
+  source_ref: MP-4.1-005
+  subcategory: MAP 4.1
+  genai_risks:
+  - CBRN Information or Capabilities
+  - Intellectual Property
+  - Information Security
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content
+  - Data Privacy

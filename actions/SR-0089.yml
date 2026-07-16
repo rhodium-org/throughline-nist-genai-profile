@@ -1,0 +1,16 @@
+uid: SR-0089
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-4.1-010
+text: Conduct appropriate diligence on training data use to assess intellectual property, and
+  privacy, risks, including to examine whether use of proprietary or sensitive training data
+  is consistent with applicable laws.
+links:
+- target: UR-0022
+  type: implements
+attrs:
+  source_ref: MP-4.1-010
+  subcategory: MAP 4.1
+  genai_risks:
+  - Intellectual Property
+  - Data Privacy

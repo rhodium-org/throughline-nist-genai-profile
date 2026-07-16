@@ -1,0 +1,19 @@
+uid: SR-0164
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-3.3-005
+text: Record and integrate structured feedback about content provenance from operators, users,
+  and potentially impacted communities through the use of methods such as user research studies,
+  focus groups, or community forums. Actively seek feedback on generated content quality and
+  potential biases. Assess the general awareness among end users and impacted communities about
+  the availability of these feedback channels.
+links:
+- target: UR-0039
+  type: implements
+attrs:
+  source_ref: MS-3.3-005
+  subcategory: MEASURE 3.3
+  genai_risks:
+  - Human-AI Configuration
+  - Information Integrity
+  - Harmful Bias and Homogenization

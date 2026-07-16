@@ -1,0 +1,15 @@
+uid: SR-0118
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.5-001
+text: Avoid extrapolating GAI system performance or capabilities from narrow, non- systematic,
+  and anecdotal assessments.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: MS-2.5-001
+  subcategory: MEASURE 2.5
+  genai_risks:
+  - Human-AI Configuration
+  - Confabulation

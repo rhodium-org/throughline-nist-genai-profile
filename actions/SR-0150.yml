@@ -1,0 +1,24 @@
+uid: SR-0150
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.11-002
+text: 'Conduct fairness assessments to measure systemic bias. Measure GAI system performance
+  across demographic groups and subgroups, addressing both quality of service and any allocation
+  of services and resources. Quantify harms using: field testing with sub-group populations
+  to determine likelihood of exposure to generated content exhibiting harmful bias, AI red-teaming
+  with counterfactual and low-context (e.g., "leader," "bad guys") prompts. For ML pipelines
+  or business processes with categorical or numeric outcomes that rely on GAI, apply general
+  fairness metrics (e.g., demographic parity, equalized odds, Content equal opportunity, statistical
+  hypothesis tests), to the pipeline or business outcome where appropriate; Custom, context-specific
+  metrics developed in collaboration with domain experts and affected communities; Measurements
+  of the prevalence of denigration in generated content in deployment (e.g., sub- sampling a
+  fraction of traffic and manually annotating denigrating content).'
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: MS-2.11-002
+  subcategory: MEASURE 2.11
+  genai_risks:
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content

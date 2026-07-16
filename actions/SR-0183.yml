@@ -1,0 +1,15 @@
+uid: SR-0183
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MG-2.4-002
+text: Establish and maintain procedures for escalating GAI system incidents to the organizational
+  risk management authority when specific criteria for deactivation or disengagement is met
+  for a particular context of use or for the GAI system as a whole.
+links:
+- target: UR-0044
+  type: implements
+attrs:
+  source_ref: MG-2.4-002
+  subcategory: MANAGE 2.4
+  genai_risks:
+  - Information Security

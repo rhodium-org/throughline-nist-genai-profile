@@ -1,0 +1,15 @@
+uid: SR-0082
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-4.1-003
+text: Connect new GAI policies, procedures, and processes to existing model, data, software
+  development, and IT governance and to legal, compliance, and risk management activities.
+links:
+- target: UR-0022
+  type: implements
+attrs:
+  source_ref: MP-4.1-003
+  subcategory: MAP 4.1
+  genai_risks:
+  - Information Security
+  - Data Privacy

@@ -1,0 +1,17 @@
+uid: SR-0149
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.11-001
+text: Apply use-case appropriate benchmarks (e.g., Bias Benchmark Questions, Real Hateful or
+  Harmful Prompts, Winogender Schemas 15) to quantify systemic bias, stereotyping, denigration,
+  and hateful content in GAI system outputs; Document assumptions and limitations of benchmarks,
+  including any actual or possible training/test data cross contamination, relative to in-context
+  deployment environment.
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: MS-2.11-001
+  subcategory: MEASURE 2.11
+  genai_risks:
+  - Harmful Bias and Homogenization

@@ -1,0 +1,16 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.1-001
+text: Align GAI development and use with applicable laws and regulations, including those related
+  to data privacy, copyright and intellectual property law.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: GV-1.1-001
+  subcategory: GOVERN 1.1
+  genai_risks:
+  - Data Privacy
+  - Harmful Bias and Homogenization
+  - Intellectual Property

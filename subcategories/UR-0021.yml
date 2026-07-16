@@ -1,0 +1,11 @@
+uid: UR-0021
+type: user_requirement
+status: approved
+title: MAP 3.4
+text: Processes for operator and practitioner proficiency with AI system performance and trustworthiness
+  - and relevant technical standards and certifications - are defined, assessed, and documented.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: MAP 3.4

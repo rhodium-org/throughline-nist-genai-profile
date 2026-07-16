@@ -1,0 +1,12 @@
+uid: UR-0047
+type: user_requirement
+status: approved
+title: MANAGE 4.1
+text: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing
+  and evaluating input from users and other relevant AI Actors, appeal and override, decommissioning,
+  incident response, recovery, and change management.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 4.1

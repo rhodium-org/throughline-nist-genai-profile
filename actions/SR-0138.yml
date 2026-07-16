@@ -1,0 +1,15 @@
+uid: SR-0138
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.7-008
+text: Verify fine-tuning does not compromise safety and security controls.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: MS-2.7-008
+  subcategory: MEASURE 2.7
+  genai_risks:
+  - Information Integrity
+  - Information Security
+  - Dangerous, Violent, or Hateful Content

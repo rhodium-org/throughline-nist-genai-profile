@@ -1,0 +1,14 @@
+uid: SR-0116
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.3-003
+text: Share results of pre-deployment testing with relevant GAI Actors, such as those with system
+  release approval authority.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: MS-2.3-003
+  subcategory: MEASURE 2.3
+  genai_risks:
+  - Human-AI Configuration

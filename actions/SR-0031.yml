@@ -1,0 +1,17 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-4.1-001
+text: 'Establish policies and procedures that address continual improvement processes for GAI
+  risk measurement. Address general risks associated with a lack of explainability and transparency
+  in GAI systems by using ample documentation and techniques such as: application of gradient-based
+  attributions, occlusion/term reduction, counterfactual prompts and prompt engineering, and
+  analysis of embeddings; Assess and update risk measurement approaches at regular cadences.'
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: GV-4.1-001
+  subcategory: GOVERN 4.1
+  genai_risks:
+  - Confabulation

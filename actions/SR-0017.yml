@@ -1,0 +1,14 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: NIST AI 600-1 GV-1.6-002
+text: Define any inventory exemptions in organizational policies for GAI systems embedded into
+  application software.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: GV-1.6-002
+  subcategory: GOVERN 1.6
+  genai_risks:
+  - Value Chain and Component Integration

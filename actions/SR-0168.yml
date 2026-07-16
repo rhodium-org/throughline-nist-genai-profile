@@ -1,0 +1,15 @@
+uid: SR-0168
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-4.2-004
+text: Monitor and document instances where human operators or other systems override the GAI's
+  decisions. Evaluate these cases to understand if the overrides are linked to issues related
+  to content provenance.
+links:
+- target: UR-0040
+  type: implements
+attrs:
+  source_ref: MS-4.2-004
+  subcategory: MEASURE 4.2
+  genai_risks:
+  - Information Integrity

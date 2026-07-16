@@ -1,0 +1,16 @@
+uid: SR-0101
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-1.1-004
+text: Develop a suite of metrics to evaluate structured public feedback exercises informed by
+  representative AI Actors.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: MS-1.1-004
+  subcategory: MEASURE 1.1
+  genai_risks:
+  - Human-AI Configuration
+  - Harmful Bias and Homogenization
+  - CBRN Information or Capabilities

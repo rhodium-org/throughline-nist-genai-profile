@@ -1,0 +1,14 @@
+uid: SR-0155
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-2.12-002
+text: Document anticipated environmental impacts of model development, maintenance, and deployment
+  in product design decisions.
+links:
+- target: UR-0036
+  type: implements
+attrs:
+  source_ref: MS-2.12-002
+  subcategory: MEASURE 2.12
+  genai_risks:
+  - Environmental

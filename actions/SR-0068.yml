@@ -1,0 +1,14 @@
+uid: SR-0068
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-2.2-002
+text: Observe and analyze how the GAI system interacts with external networks, and identify
+  any potential for negative externalities, particularly where content provenance might be compromised.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: MP-2.2-002
+  subcategory: MAP 2.2
+  genai_risks:
+  - Information Integrity

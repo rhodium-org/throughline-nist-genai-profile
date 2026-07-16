@@ -1,0 +1,11 @@
+uid: UR-0043
+type: user_requirement
+status: approved
+title: MANAGE 2.3
+text: Procedures are followed to respond to and recover from a previously unknown risk when
+  it is identified.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 2.3

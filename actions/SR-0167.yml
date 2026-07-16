@@ -1,0 +1,15 @@
+uid: SR-0167
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MS-4.2-003
+text: Implement interpretability and explainability methods to evaluate GAI system decisions
+  and verify alignment with intended purpose.
+links:
+- target: UR-0040
+  type: implements
+attrs:
+  source_ref: MS-4.2-003
+  subcategory: MEASURE 4.2
+  genai_risks:
+  - Information Integrity
+  - Harmful Bias and Homogenization

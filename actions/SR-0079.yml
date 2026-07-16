@@ -1,0 +1,18 @@
+uid: SR-0079
+type: system_requirement
+status: approved
+title: NIST AI 600-1 MP-3.4-006
+text: Involve the end-users, practitioners, and operators in GAI system in prototyping and testing
+  activities. Make sure these tests cover various scenarios, such as crisis situations or ethically
+  sensitive contexts.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: MP-3.4-006
+  subcategory: MAP 3.4
+  genai_risks:
+  - Human-AI Configuration
+  - Information Integrity
+  - Harmful Bias and Homogenization
+  - Dangerous, Violent, or Hateful Content
