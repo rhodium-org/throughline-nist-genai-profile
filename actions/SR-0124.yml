@@ -1,10 +1,11 @@
 uid: SR-0124
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.6-001
-text: Assess adverse impacts, including health and wellbeing impacts for value chain or other
-  AI Actors that are exposed to sexually explicit, offensive, or violent information during
-  GAI training and maintenance.
+text: Assess adverse impacts, including health and wellbeing impacts for value chain
+  or other AI Actors that are exposed to sexually explicit, offensive, or violent
+  information during GAI training and maintenance.
+normative: true
 links:
 - target: UR-0030
   type: implements

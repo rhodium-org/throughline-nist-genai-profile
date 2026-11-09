@@ -1,9 +1,10 @@
 uid: SR-0037
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-4.3-001
-text: Establish policies for measuring the effectiveness of employed content provenance methodologies
-  (e.g., cryptography, watermarking, steganography, etc.)
+text: Establish policies for measuring the effectiveness of employed content provenance
+  methodologies (e.g., cryptography, watermarking, steganography, etc.)
+normative: true
 links:
 - target: UR-0012
   type: implements

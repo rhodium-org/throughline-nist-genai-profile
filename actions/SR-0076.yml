@@ -1,9 +1,10 @@
 uid: SR-0076
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-3.4-003
-text: Develop certification programs that test proficiency in managing GAI risks and interpreting
-  content provenance, relevant to specific industry and context.
+text: Develop certification programs that test proficiency in managing GAI risks
+  and interpreting content provenance, relevant to specific industry and context.
+normative: true
 links:
 - target: UR-0021
   type: implements

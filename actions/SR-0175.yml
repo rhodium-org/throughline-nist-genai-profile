@@ -1,9 +1,11 @@
 uid: SR-0175
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-2.2-004
-text: Evaluate GAI content and data for representational biases and employ techniques such as
-  re-sampling, re-ranking, or adversarial training to mitigate biases in the generated content.
+text: Evaluate GAI content and data for representational biases and employ techniques
+  such as re-sampling, re-ranking, or adversarial training to mitigate biases in
+  the generated content.
+normative: true
 links:
 - target: UR-0042
   type: implements

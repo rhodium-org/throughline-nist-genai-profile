@@ -1,9 +1,11 @@
 uid: SR-0125
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.6-002
-text: Assess existence or levels of harmful bias, intellectual property infringement, data privacy
-  violations, obscenity, extremism, violence, or CBRN information in system training data.
+text: Assess existence or levels of harmful bias, intellectual property infringement,
+  data privacy violations, obscenity, extremism, violence, or CBRN information in
+  system training data.
+normative: true
 links:
 - target: UR-0030
   type: implements

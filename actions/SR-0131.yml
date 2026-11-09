@@ -1,11 +1,13 @@
 uid: SR-0131
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.7-001
-text: 'Apply established security measures to: Assess likelihood and magnitude of vulnerabilities
-  and threats such as backdoors, compromised dependencies, data breaches, eavesdropping, man-in-the-middle
-  attacks, reverse engineering, autonomous agents, model theft or exposure of model weights,
-  AI inference, bypass, extraction, and other baseline security concerns.'
+text: 'Apply established security measures to: Assess likelihood and magnitude of
+  vulnerabilities and threats such as backdoors, compromised dependencies, data breaches,
+  eavesdropping, man-in-the-middle attacks, reverse engineering, autonomous agents,
+  model theft or exposure of model weights, AI inference, bypass, extraction, and
+  other baseline security concerns.'
+normative: true
 links:
 - target: UR-0031
   type: implements

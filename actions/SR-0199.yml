@@ -1,9 +1,11 @@
 uid: SR-0199
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-3.2-009
-text: Use organizational risk tolerance to evaluate acceptable risks and performance metrics
-  and decommission or retrain pre-trained models that perform outside of defined limits.
+text: Use organizational risk tolerance to evaluate acceptable risks and performance
+  metrics and decommission or retrain pre-trained models that perform outside of
+  defined limits.
+normative: true
 links:
 - target: UR-0046
   type: implements

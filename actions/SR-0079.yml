@@ -1,10 +1,11 @@
 uid: SR-0079
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-3.4-006
-text: Involve the end-users, practitioners, and operators in GAI system in prototyping and testing
-  activities. Make sure these tests cover various scenarios, such as crisis situations or ethically
-  sensitive contexts.
+text: Involve the end-users, practitioners, and operators in GAI system in prototyping
+  and testing activities. Make sure these tests cover various scenarios, such as
+  crisis situations or ethically sensitive contexts.
+normative: true
 links:
 - target: UR-0021
   type: implements

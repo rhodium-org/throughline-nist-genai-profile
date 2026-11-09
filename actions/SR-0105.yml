@@ -1,10 +1,11 @@
 uid: SR-0105
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-1.1-008
-text: Define use cases, contexts of use, capabilities, and negative impacts where structured
-  human feedback exercises, e.g., GAI red-teaming, would be most beneficial for GAI risk measurement
-  and management based on the context of use.
+text: Define use cases, contexts of use, capabilities, and negative impacts where
+  structured human feedback exercises, e.g., GAI red-teaming, would be most beneficial
+  for GAI risk measurement and management based on the context of use.
+normative: true
 links:
 - target: UR-0025
   type: implements

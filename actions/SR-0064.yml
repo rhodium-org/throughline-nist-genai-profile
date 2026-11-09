@@ -1,10 +1,11 @@
 uid: SR-0064
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-1.2-002
-text: Verify that data or benchmarks used in risk measurement, and users, participants, or subjects
-  involved in structured GAI public feedback exercises are representative of diverse in-context
-  user populations.
+text: Verify that data or benchmarks used in risk measurement, and users, participants,
+  or subjects involved in structured GAI public feedback exercises are representative
+  of diverse in-context user populations.
+normative: true
 links:
 - target: UR-0017
   type: implements

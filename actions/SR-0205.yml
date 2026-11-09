@@ -1,9 +1,10 @@
 uid: SR-0205
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-4.1-006
 text: Track dataset modifications for provenance by monitoring data deletions, rectification
   requests, and other changes that may impact the verifiability of content origins.
+normative: true
 links:
 - target: UR-0047
   type: implements

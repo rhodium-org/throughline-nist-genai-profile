@@ -1,11 +1,12 @@
 uid: UR-0023
 type: user_requirement
-status: approved
+status: proposed
 title: MAP 5.1
-text: Likelihood and magnitude of each identified impact (both potentially beneficial and harmful)
-  based on expected use, past uses of AI systems in similar contexts, public incident reports,
-  feedback from those external to the team that developed or deployed the AI system, or other
-  data are identified and documented.
+text: Likelihood and magnitude of each identified impact (both potentially beneficial
+  and harmful) based on expected use, past uses of AI systems in similar contexts,
+  public incident reports, feedback from those external to the team that developed
+  or deployed the AI system, or other data are identified and documented.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

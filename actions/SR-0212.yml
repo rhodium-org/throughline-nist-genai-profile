@@ -1,9 +1,11 @@
 uid: SR-0212
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-4.3-003
-text: Report GAI incidents in compliance with legal and regulatory requirements (e.g., HIPAA
-  breach reporting, e.g., OCR (2023) or NHTSA (2022) autonomous vehicle crash reporting requirements.
+text: Report GAI incidents in compliance with legal and regulatory requirements (e.g.,
+  HIPAA breach reporting, e.g., OCR (2023) or NHTSA (2022) autonomous vehicle crash
+  reporting requirements.
+normative: true
 links:
 - target: UR-0049
   type: implements

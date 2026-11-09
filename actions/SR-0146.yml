@@ -1,12 +1,13 @@
 uid: SR-0146
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.10-001
-text: 'Conduct AI red-teaming to assess issues such as: Outputting of training data samples,
-  and subsequent reverse engineering, model extraction, and membership inference risks; Revealing
-  biometric, confidential, copyrighted, licensed, patented, personal, proprietary, sensitive,
-  or trade-marked information; Tracking or revealing location information of users or members
-  of training datasets.'
+text: 'Conduct AI red-teaming to assess issues such as: Outputting of training data
+  samples, and subsequent reverse engineering, model extraction, and membership inference
+  risks; Revealing biometric, confidential, copyrighted, licensed, patented, personal,
+  proprietary, sensitive, or trade-marked information; Tracking or revealing location
+  information of users or members of training datasets.'
+normative: true
 links:
 - target: UR-0034
   type: implements

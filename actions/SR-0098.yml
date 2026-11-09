@@ -1,8 +1,9 @@
 uid: SR-0098
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-1.1-001
 text: Employ methods to trace the origin and modifications of digital content.
+normative: true
 links:
 - target: UR-0025
   type: implements

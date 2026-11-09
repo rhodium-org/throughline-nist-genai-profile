@@ -1,11 +1,12 @@
 uid: SR-0046
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-6.1-005
-text: Implement a use-cased based supplier risk assessment framework to evaluate and monitor
-  third-party entities' performance and adherence to content provenance Integrity; standards
-  and technologies to detect anomalies and unauthorized changes; services acquisition and value
-  chain risk management; and legal compliance.
+text: Implement a use-cased based supplier risk assessment framework to evaluate
+  and monitor third-party entities' performance and adherence to content provenance
+  Integrity; standards and technologies to detect anomalies and unauthorized changes;
+  services acquisition and value chain risk management; and legal compliance.
+normative: true
 links:
 - target: UR-0014
   type: implements

@@ -1,10 +1,11 @@
 uid: UR-0005
 type: user_requirement
-status: approved
+status: proposed
 title: GOVERN 1.5
-text: Ongoing monitoring and periodic review of the risk management process and its outcomes
-  are planned, and organizational roles and responsibilities are clearly defined, including
-  determining the frequency of periodic review.
+text: Ongoing monitoring and periodic review of the risk management process and its
+  outcomes are planned, and organizational roles and responsibilities are clearly
+  defined, including determining the frequency of periodic review.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

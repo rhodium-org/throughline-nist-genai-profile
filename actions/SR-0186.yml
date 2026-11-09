@@ -1,14 +1,16 @@
 uid: SR-0186
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-3.1-001
 text: 'Apply organizational risk tolerances and controls (e.g., acquisition and procurement
-  processes; assessing personnel credentials and qualifications, performing background checks;
-  filtering GAI input and outputs, grounding, fine tuning, retrieval-augmented generation) to
-  third-party GAI resources: Apply organizational risk tolerance to the utilization of third-party
-  datasets and other GAI resources; Apply organizational risk tolerances to fine-tuned third-party
-  models; Apply organizational risk tolerance to existing third-party models adapted to a new
-  domain; Reassess risk measurements after fine-tuning third- party GAI models.'
+  processes; assessing personnel credentials and qualifications, performing background
+  checks; filtering GAI input and outputs, grounding, fine tuning, retrieval-augmented
+  generation) to third-party GAI resources: Apply organizational risk tolerance to
+  the utilization of third-party datasets and other GAI resources; Apply organizational
+  risk tolerances to fine-tuned third-party models; Apply organizational risk tolerance
+  to existing third-party models adapted to a new domain; Reassess risk measurements
+  after fine-tuning third- party GAI models.'
+normative: true
 links:
 - target: UR-0045
   type: implements

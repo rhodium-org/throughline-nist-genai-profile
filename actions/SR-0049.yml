@@ -1,9 +1,10 @@
 uid: SR-0049
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-6.1-008
-text: Maintain records of changes to content made by third parties to promote content provenance,
-  including sources, timestamps, metadata.
+text: Maintain records of changes to content made by third parties to promote content
+  provenance, including sources, timestamps, metadata.
+normative: true
 links:
 - target: UR-0014
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0051
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-6.1-010
-text: Update GAI acceptable use policies to address proprietary and open-source GAI technologies
-  and data, and contractors, consultants, and other third-party personnel.
+text: Update GAI acceptable use policies to address proprietary and open-source GAI
+  technologies and data, and contractors, consultants, and other third-party personnel.
+normative: true
 links:
 - target: UR-0014
   type: implements

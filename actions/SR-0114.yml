@@ -1,9 +1,10 @@
 uid: SR-0114
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.3-001
-text: Consider baseline model performance on suites of benchmarks when selecting a model for
-  fine tuning or enhancement with retrieval-augmented generation.
+text: Consider baseline model performance on suites of benchmarks when selecting
+  a model for fine tuning or enhancement with retrieval-augmented generation.
+normative: true
 links:
 - target: UR-0028
   type: implements

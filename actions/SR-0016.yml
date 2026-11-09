@@ -1,9 +1,10 @@
 uid: SR-0016
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-1.6-001
-text: Enumerate organizational GAI systems for incorporation into AI system inventory and adjust
-  AI system inventory requirements to account for GAI risks.
+text: Enumerate organizational GAI systems for incorporation into AI system inventory
+  and adjust AI system inventory requirements to account for GAI risks.
+normative: true
 links:
 - target: UR-0006
   type: implements

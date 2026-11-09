@@ -1,10 +1,11 @@
 uid: UR-0044
 type: user_requirement
-status: approved
+status: proposed
 title: MANAGE 2.4
-text: Mechanisms are in place and applied, and responsibilities are assigned and understood,
-  to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes
-  inconsistent with intended use.
+text: Mechanisms are in place and applied, and responsibilities are assigned and
+  understood, to supersede, disengage, or deactivate AI systems that demonstrate
+  performance or outcomes inconsistent with intended use.
+normative: true
 links:
 - target: INT-0004
   type: derives_from

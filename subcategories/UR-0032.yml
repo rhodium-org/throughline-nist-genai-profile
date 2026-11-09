@@ -1,9 +1,10 @@
 uid: UR-0032
 type: user_requirement
-status: approved
+status: proposed
 title: MEASURE 2.8
-text: Risks associated with transparency and accountability - as identified in the MAP function
-  - are examined and documented.
+text: Risks associated with transparency and accountability - as identified in the
+  MAP function - are examined and documented.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

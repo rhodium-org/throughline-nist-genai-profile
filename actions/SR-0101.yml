@@ -1,9 +1,10 @@
 uid: SR-0101
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-1.1-004
-text: Develop a suite of metrics to evaluate structured public feedback exercises informed by
-  representative AI Actors.
+text: Develop a suite of metrics to evaluate structured public feedback exercises
+  informed by representative AI Actors.
+normative: true
 links:
 - target: UR-0025
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0036
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-4.2-003
-text: Verify that downstream GAI system impacts (such as the use of third-party plugins) are
-  included in the impact documentation process.
+text: Verify that downstream GAI system impacts (such as the use of third-party plugins)
+  are included in the impact documentation process.
+normative: true
 links:
 - target: UR-0011
   type: implements

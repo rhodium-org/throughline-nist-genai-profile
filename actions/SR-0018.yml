@@ -1,14 +1,16 @@
 uid: SR-0018
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-1.6-003
-text: 'In addition to general model, governance, and risk information, consider the following
-  items in GAI system inventory entries: Data provenance information (e.g., source, signatures,
-  versioning, watermarks); Known issues reported from internal bug tracking or external information
-  sharing resources (e.g., AI incident database, AVID, CVE, NVD, or OECD AI incident monitor);
-  Human oversight roles and responsibilities; Special rights and considerations for intellectual
-  property, licensed works, or personal, privileged, proprietary or sensitive data; Underlying
-  foundation models, versions of underlying models, and access modes.'
+text: 'In addition to general model, governance, and risk information, consider the
+  following items in GAI system inventory entries: Data provenance information (e.g.,
+  source, signatures, versioning, watermarks); Known issues reported from internal
+  bug tracking or external information sharing resources (e.g., AI incident database,
+  AVID, CVE, NVD, or OECD AI incident monitor); Human oversight roles and responsibilities;
+  Special rights and considerations for intellectual property, licensed works, or
+  personal, privileged, proprietary or sensitive data; Underlying foundation models,
+  versions of underlying models, and access modes.'
+normative: true
 links:
 - target: UR-0006
   type: implements

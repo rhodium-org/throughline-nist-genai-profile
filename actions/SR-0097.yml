@@ -1,9 +1,11 @@
 uid: SR-0097
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-5.2-002
-text: Plan regular engagements with AI Actors responsible for inputs to GAI systems, including
-  third-party data and algorithms, to review and evaluate unanticipated impacts.
+text: Plan regular engagements with AI Actors responsible for inputs to GAI systems,
+  including third-party data and algorithms, to review and evaluate unanticipated
+  impacts.
+normative: true
 links:
 - target: UR-0024
   type: implements

@@ -1,9 +1,11 @@
 uid: UR-0033
 type: user_requirement
-status: approved
+status: proposed
 title: MEASURE 2.9
-text: The AI model is explained, validated, and documented, and AI system output is interpreted
-  within its context - as identified in the MAP function - to inform responsible use and governance.
+text: The AI model is explained, validated, and documented, and AI system output
+  is interpreted within its context - as identified in the MAP function - to inform
+  responsible use and governance.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

@@ -1,15 +1,17 @@
 uid: SR-0058
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-6.2-007
-text: 'Review vendor contracts and avoid arbitrary or capricious termination of critical GAI
-  technologies or vendor services and non-standard terms that may amplify or defer liability
-  in unexpected ways and/or contribute to unauthorized data collection by vendors or third-parties
-  (e.g., secondary data use). Consider: Clear assignment of liability and responsibility for
-  incidents, GAI system changes over time (e.g., fine-tuning, drift, decay); Request: Notification
-  and disclosure for serious incidents arising from third-party data and systems; Service Level
-  Agreements (SLAs) in vendor contracts that address incident response, response times, and
-  availability of critical support.'
+text: 'Review vendor contracts and avoid arbitrary or capricious termination of critical
+  GAI technologies or vendor services and non-standard terms that may amplify or
+  defer liability in unexpected ways and/or contribute to unauthorized data collection
+  by vendors or third-parties (e.g., secondary data use). Consider: Clear assignment
+  of liability and responsibility for incidents, GAI system changes over time (e.g.,
+  fine-tuning, drift, decay); Request: Notification and disclosure for serious incidents
+  arising from third-party data and systems; Service Level Agreements (SLAs) in vendor
+  contracts that address incident response, response times, and availability of critical
+  support.'
+normative: true
 links:
 - target: UR-0015
   type: implements

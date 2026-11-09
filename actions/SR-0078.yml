@@ -1,9 +1,10 @@
 uid: SR-0078
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-3.4-005
-text: Implement systems to continually monitor and track the outcomes of human-GAI configurations
-  for future refinement and improvements.
+text: Implement systems to continually monitor and track the outcomes of human-GAI
+  configurations for future refinement and improvements.
+normative: true
 links:
 - target: UR-0021
   type: implements

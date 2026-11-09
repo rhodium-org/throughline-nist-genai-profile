@@ -1,9 +1,10 @@
 uid: SR-0178
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-2.2-007
-text: Use real-time auditing tools where they can be demonstrated to aid in the tracking and
-  validation of the lineage and authenticity of AI-generated data.
+text: Use real-time auditing tools where they can be demonstrated to aid in the tracking
+  and validation of the lineage and authenticity of AI-generated data.
+normative: true
 links:
 - target: UR-0042
   type: implements

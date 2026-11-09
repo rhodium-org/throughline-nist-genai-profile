@@ -1,10 +1,11 @@
 uid: SR-0166
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-4.2-002
-text: Evaluate GAI system performance in real-world scenarios to observe its behavior in practical
-  environments and reveal issues that might not surface in controlled and optimized testing
-  environments.
+text: Evaluate GAI system performance in real-world scenarios to observe its behavior
+  in practical environments and reveal issues that might not surface in controlled
+  and optimized testing environments.
+normative: true
 links:
 - target: UR-0040
   type: implements

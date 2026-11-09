@@ -1,9 +1,10 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: GOVERN 1.2
-text: The characteristics of trustworthy AI are integrated into organizational policies, processes,
-  procedures, and practices.
+text: The characteristics of trustworthy AI are integrated into organizational policies,
+  processes, procedures, and practices.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

@@ -1,10 +1,11 @@
 uid: SR-0206
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-4.1-007
-text: Verify that AI Actors responsible for monitoring reported issues can effectively evaluate
-  GAI system performance including the application of content provenance data tracking techniques,
-  and promptly escalate issues for response.
+text: Verify that AI Actors responsible for monitoring reported issues can effectively
+  evaluate GAI system performance including the application of content provenance
+  data tracking techniques, and promptly escalate issues for response.
+normative: true
 links:
 - target: UR-0047
   type: implements

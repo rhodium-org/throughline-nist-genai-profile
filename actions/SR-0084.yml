@@ -1,11 +1,13 @@
 uid: SR-0084
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-4.1-005
-text: 'Establish policies for collection, retention, and minimum quality of data, in consideration
-  of the following risks: Disclosure of inappropriate CBRN information; Use of Illegal or dangerous
-  content; Offensive cyber capabilities; Training data imbalances that could give rise to harmful
-  biases; Leak of personally identifiable information, including facial likenesses of individuals.'
+text: 'Establish policies for collection, retention, and minimum quality of data,
+  in consideration of the following risks: Disclosure of inappropriate CBRN information;
+  Use of Illegal or dangerous content; Offensive cyber capabilities; Training data
+  imbalances that could give rise to harmful biases; Leak of personally identifiable
+  information, including facial likenesses of individuals.'
+normative: true
 links:
 - target: UR-0022
   type: implements

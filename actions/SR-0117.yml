@@ -1,9 +1,10 @@
 uid: SR-0117
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.3-004
-text: Utilize a purpose-built testing environment such as NIST Dioptra to empirically evaluate
-  GAI trustworthy characteristics.
+text: Utilize a purpose-built testing environment such as NIST Dioptra to empirically
+  evaluate GAI trustworthy characteristics.
+normative: true
 links:
 - target: UR-0028
   type: implements

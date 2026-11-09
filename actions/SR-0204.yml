@@ -1,9 +1,10 @@
 uid: SR-0204
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-4.1-005
-text: Share transparency reports with internal and external stakeholders that detail steps taken
-  to update the GAI system to enhance transparency and accountability.
+text: Share transparency reports with internal and external stakeholders that detail
+  steps taken to update the GAI system to enhance transparency and accountability.
+normative: true
 links:
 - target: UR-0047
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0169
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-4.2-005
-text: Verify and document the incorporation of results of structured public feedback exercises
-  into design, implementation, deployment approval ("go"/"no-go" decisions), monitoring, and
-  decommission decisions.
+text: Verify and document the incorporation of results of structured public feedback
+  exercises into design, implementation, deployment approval ("go"/"no-go" decisions),
+  monitoring, and decommission decisions.
+normative: true
 links:
 - target: UR-0040
   type: implements

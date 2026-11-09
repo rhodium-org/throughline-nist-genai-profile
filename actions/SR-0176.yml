@@ -1,9 +1,10 @@
 uid: SR-0176
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-2.2-005
-text: Engage in due diligence to analyze GAI output for harmful content, potential misinformation,
-  and CBRN-related or NCII content.
+text: Engage in due diligence to analyze GAI output for harmful content, potential
+  misinformation, and CBRN-related or NCII content.
+normative: true
 links:
 - target: UR-0042
   type: implements

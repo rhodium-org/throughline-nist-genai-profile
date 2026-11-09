@@ -1,9 +1,11 @@
 uid: SR-0144
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.9-001
-text: 'Apply and document ML explanation results such as: Analysis of embeddings, Counterfactual
-  prompts, Gradient-based attributions, Model compression/surrogate models, Occlusion/term reduction.'
+text: 'Apply and document ML explanation results such as: Analysis of embeddings,
+  Counterfactual prompts, Gradient-based attributions, Model compression/surrogate
+  models, Occlusion/term reduction.'
+normative: true
 links:
 - target: UR-0033
   type: implements

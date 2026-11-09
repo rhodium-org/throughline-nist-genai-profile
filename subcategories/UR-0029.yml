@@ -1,9 +1,11 @@
 uid: UR-0029
 type: user_requirement
-status: approved
+status: proposed
 title: MEASURE 2.5
-text: The AI system to be deployed is demonstrated to be valid and reliable. Limitations of
-  the generalizability beyond the conditions under which the technology was developed are documented.
+text: The AI system to be deployed is demonstrated to be valid and reliable. Limitations
+  of the generalizability beyond the conditions under which the technology was developed
+  are documented.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

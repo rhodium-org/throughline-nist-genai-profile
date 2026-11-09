@@ -1,9 +1,10 @@
 uid: SR-0044
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-6.1-003
-text: Develop and validate approaches for measuring the success of content provenance management
-  efforts with third parties (e.g., incidents detected and response times).
+text: Develop and validate approaches for measuring the success of content provenance
+  management efforts with third parties (e.g., incidents detected and response times).
+normative: true
 links:
 - target: UR-0014
   type: implements

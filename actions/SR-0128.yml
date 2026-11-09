@@ -1,9 +1,11 @@
 uid: SR-0128
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.6-005
-text: Verify that GAI system architecture can monitor outputs and performance, and handle, recover
-  from, and repair errors when security anomalies, threats and impacts are detected.
+text: Verify that GAI system architecture can monitor outputs and performance, and
+  handle, recover from, and repair errors when security anomalies, threats and impacts
+  are detected.
+normative: true
 links:
 - target: UR-0030
   type: implements

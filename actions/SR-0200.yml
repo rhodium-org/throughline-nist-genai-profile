@@ -1,10 +1,11 @@
 uid: SR-0200
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-4.1-001
 text: Collaborate with external researchers, industry experts, and community representatives
-  to maintain awareness of emerging best practices and technologies in measuring and managing
-  identified risks.
+  to maintain awareness of emerging best practices and technologies in measuring
+  and managing identified risks.
+normative: true
 links:
 - target: UR-0047
   type: implements

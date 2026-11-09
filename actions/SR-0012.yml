@@ -1,9 +1,10 @@
 uid: SR-0012
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-1.4-002
-text: Establish transparent acceptable use policies for GAI that address illegal use or applications
-  of GAI.
+text: Establish transparent acceptable use policies for GAI that address illegal
+  use or applications of GAI.
+normative: true
 links:
 - target: UR-0004
   type: implements

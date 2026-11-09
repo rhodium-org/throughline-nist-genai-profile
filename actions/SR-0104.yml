@@ -1,10 +1,11 @@
 uid: SR-0104
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-1.1-007
-text: Evaluate the quality and integrity of data used in training and the provenance of AI-generated
-  content, for example by employing techniques like chaos engineering and seeking stakeholder
-  feedback.
+text: Evaluate the quality and integrity of data used in training and the provenance
+  of AI-generated content, for example by employing techniques like chaos engineering
+  and seeking stakeholder feedback.
+normative: true
 links:
 - target: UR-0025
   type: implements

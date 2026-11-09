@@ -1,10 +1,11 @@
 uid: SR-0095
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-5.1-006
-text: Profile threats and negative impacts arising from GAI systems interacting with, manipulating,
-  or generating content, and outlining known and potential vulnerabilities and the likelihood
-  of their occurrence.
+text: Profile threats and negative impacts arising from GAI systems interacting with,
+  manipulating, or generating content, and outlining known and potential vulnerabilities
+  and the likelihood of their occurrence.
+normative: true
 links:
 - target: UR-0023
   type: implements

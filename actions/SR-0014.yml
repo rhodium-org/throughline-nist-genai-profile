@@ -1,10 +1,11 @@
 uid: SR-0014
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-1.5-002
-text: Establish organizational policies and procedures for after action reviews of GAI system
-  incident response and incident disclosures, to identify gaps; Update incident response and
-  incident disclosure processes as required.
+text: Establish organizational policies and procedures for after action reviews of
+  GAI system incident response and incident disclosures, to identify gaps; Update
+  incident response and incident disclosure processes as required.
+normative: true
 links:
 - target: UR-0005
   type: implements

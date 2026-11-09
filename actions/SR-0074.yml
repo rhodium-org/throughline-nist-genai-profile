@@ -1,9 +1,10 @@
 uid: SR-0074
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-3.4-001
-text: Evaluate whether GAI operators and end-users can accurately understand content lineage
-  and origin.
+text: Evaluate whether GAI operators and end-users can accurately understand content
+  lineage and origin.
+normative: true
 links:
 - target: UR-0021
   type: implements

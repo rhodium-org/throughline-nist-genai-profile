@@ -1,10 +1,12 @@
 uid: SR-0163
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-3.3-004
-text: Provide input for training materials about the capabilities and limitations of GAI systems
-  related to digital content transparency for AI Actors, other professionals, and the public
-  about the societal impacts of AI and the role of diverse and inclusive content generation.
+text: Provide input for training materials about the capabilities and limitations
+  of GAI systems related to digital content transparency for AI Actors, other professionals,
+  and the public about the societal impacts of AI and the role of diverse and inclusive
+  content generation.
+normative: true
 links:
 - target: UR-0039
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0055
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-6.2-004
-text: Establish policies and procedures for continuous monitoring of third-party GAI systems
-  in deployment.
+text: Establish policies and procedures for continuous monitoring of third-party
+  GAI systems in deployment.
+normative: true
 links:
 - target: UR-0015
   type: implements

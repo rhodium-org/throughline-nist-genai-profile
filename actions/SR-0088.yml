@@ -1,9 +1,10 @@
 uid: SR-0088
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-4.1-009
-text: Leverage approaches to detect the presence of PII or sensitive data in generated output
-  text, image, video, or audio.
+text: Leverage approaches to detect the presence of PII or sensitive data in generated
+  output text, image, video, or audio.
+normative: true
 links:
 - target: UR-0022
   type: implements

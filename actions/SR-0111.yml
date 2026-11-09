@@ -1,11 +1,12 @@
 uid: SR-0111
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.2-002
-text: 'Document how content provenance data is tracked and how that data interacts with privacy
-  and security. Consider: Anonymizing data to protect the privacy of human subjects; Leveraging
-  privacy output filters; Removing any personally identifiable information (PII) to prevent
-  potential harm or misuse.'
+text: 'Document how content provenance data is tracked and how that data interacts
+  with privacy and security. Consider: Anonymizing data to protect the privacy of
+  human subjects; Leveraging privacy output filters; Removing any personally identifiable
+  information (PII) to prevent potential harm or misuse.'
+normative: true
 links:
 - target: UR-0027
   type: implements

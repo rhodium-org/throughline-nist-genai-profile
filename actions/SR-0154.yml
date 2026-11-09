@@ -1,8 +1,9 @@
 uid: SR-0154
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.12-001
 text: Assess safety to physical environments when deploying GAI systems.
+normative: true
 links:
 - target: UR-0036
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0032
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-4.1-002
-text: Establish policies, procedures, and processes detailing risk measurement in context of
-  use with standardized measurement protocols and structured public feedback exercises such
-  as AI red-teaming or independent external evaluations.
+text: Establish policies, procedures, and processes detailing risk measurement in
+  context of use with standardized measurement protocols and structured public feedback
+  exercises such as AI red-teaming or independent external evaluations.
+normative: true
 links:
 - target: UR-0010
   type: implements

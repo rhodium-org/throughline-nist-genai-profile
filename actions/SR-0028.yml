@@ -1,10 +1,11 @@
 uid: SR-0028
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-3.2-003
-text: Define acceptable use policies for GAI interfaces, modalities, and human-AI configurations
-  (i.e., for chatbots and decision-making tasks), including criteria for the kinds of queries
-  GAI applications should refuse to respond to.
+text: Define acceptable use policies for GAI interfaces, modalities, and human-AI
+  configurations (i.e., for chatbots and decision-making tasks), including criteria
+  for the kinds of queries GAI applications should refuse to respond to.
+normative: true
 links:
 - target: UR-0009
   type: implements

@@ -1,12 +1,13 @@
 uid: UR-0030
 type: user_requirement
-status: approved
+status: proposed
 title: MEASURE 2.6
-text: The AI system is evaluated regularly for safety risks - as identified in the MAP function.
-  The AI system to be deployed is demonstrated to be safe, its residual negative risk does not
-  exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond
-  its knowledge limits. Safety metrics reflect system reliability and robustness, real-time
-  monitoring, and response times for AI system failures.
+text: The AI system is evaluated regularly for safety risks - as identified in the
+  MAP function. The AI system to be deployed is demonstrated to be safe, its residual
+  negative risk does not exceed the risk tolerance, and it can fail safely, particularly
+  if made to operate beyond its knowledge limits. Safety metrics reflect system reliability
+  and robustness, real-time monitoring, and response times for AI system failures.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

@@ -1,8 +1,9 @@
 uid: SR-0086
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-4.1-007
 text: Re-evaluate models that were fine-tuned or enhanced on top of third-party models.
+normative: true
 links:
 - target: UR-0022
   type: implements

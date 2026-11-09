@@ -1,9 +1,10 @@
 uid: UR-0035
 type: user_requirement
-status: approved
+status: proposed
 title: MEASURE 2.11
-text: Fairness and bias - as identified in the MAP function - are evaluated and results are
-  documented.
+text: Fairness and bias - as identified in the MAP function - are evaluated and results
+  are documented.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

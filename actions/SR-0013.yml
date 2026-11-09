@@ -1,9 +1,10 @@
 uid: SR-0013
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-1.5-001
-text: Define organizational responsibilities for periodic review of content provenance and incident
-  monitoring for GAI systems.
+text: Define organizational responsibilities for periodic review of content provenance
+  and incident monitoring for GAI systems.
+normative: true
 links:
 - target: UR-0005
   type: implements

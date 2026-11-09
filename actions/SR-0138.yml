@@ -1,8 +1,9 @@
 uid: SR-0138
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.7-008
 text: Verify fine-tuning does not compromise safety and security controls.
+normative: true
 links:
 - target: UR-0031
   type: implements

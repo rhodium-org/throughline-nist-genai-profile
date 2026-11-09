@@ -1,10 +1,11 @@
 uid: SR-0156
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.12-003
-text: 'Measure or estimate environmental impacts (e.g., energy and water consumption) for training,
-  fine tuning, and deploying models: Verify tradeoffs between resources used at inference time
-  versus additional resources required at training time.'
+text: 'Measure or estimate environmental impacts (e.g., energy and water consumption)
+  for training, fine tuning, and deploying models: Verify tradeoffs between resources
+  used at inference time versus additional resources required at training time.'
+normative: true
 links:
 - target: UR-0036
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0203
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-4.1-004
-text: Implement active learning techniques to identify instances where the model fails or produces
-  unexpected outputs.
+text: Implement active learning techniques to identify instances where the model
+  fails or produces unexpected outputs.
+normative: true
 links:
 - target: UR-0047
   type: implements

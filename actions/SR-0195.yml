@@ -1,11 +1,12 @@
 uid: SR-0195
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-3.2-005
-text: Implement content filters to prevent the generation of inappropriate, harmful, false,
-  illegal, or violent content related to the GAI application, including for CSAM and NCII. These
-  filters can be rule-based or leverage additional machine learning models to flag problematic
-  inputs and outputs.
+text: Implement content filters to prevent the generation of inappropriate, harmful,
+  false, illegal, or violent content related to the GAI application, including for
+  CSAM and NCII. These filters can be rule-based or leverage additional machine learning
+  models to flag problematic inputs and outputs.
+normative: true
 links:
 - target: UR-0046
   type: implements

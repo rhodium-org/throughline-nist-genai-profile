@@ -1,9 +1,11 @@
 uid: SR-0015
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-1.5-003
-text: Maintain a document retention policy to keep history for test, evaluation, validation,
-  and verification (TEVV), and digital content transparency methods for GAI.
+text: Maintain a document retention policy to keep history for test, evaluation,
+  validation, and verification (TEVV), and digital content transparency methods for
+  GAI.
+normative: true
 links:
 - target: UR-0005
   type: implements

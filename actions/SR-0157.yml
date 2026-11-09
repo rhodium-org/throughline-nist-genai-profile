@@ -1,9 +1,10 @@
 uid: SR-0157
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.12-004
-text: Verify effectiveness of carbon capture or offset programs for GAI training and applications,
-  and address green-washing concerns.
+text: Verify effectiveness of carbon capture or offset programs for GAI training
+  and applications, and address green-washing concerns.
+normative: true
 links:
 - target: UR-0036
   type: implements

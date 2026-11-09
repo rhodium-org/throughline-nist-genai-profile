@@ -1,9 +1,10 @@
 uid: SR-0185
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-2.4-004
-text: Establish and regularly review specific criteria that warrants the deactivation of GAI
-  systems in accordance with set risk tolerances and appetites.
+text: Establish and regularly review specific criteria that warrants the deactivation
+  of GAI systems in accordance with set risk tolerances and appetites.
+normative: true
 links:
 - target: UR-0044
   type: implements

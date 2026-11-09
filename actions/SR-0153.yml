@@ -1,9 +1,11 @@
 uid: SR-0153
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.11-005
-text: Assess the proportion of synthetic to non-synthetic training data and verify training
-  data is not overly homogenous or GAI-produced to mitigate concerns of model collapse.
+text: Assess the proportion of synthetic to non-synthetic training data and verify
+  training data is not overly homogenous or GAI-produced to mitigate concerns of
+  model collapse.
+normative: true
 links:
 - target: UR-0035
   type: implements

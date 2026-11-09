@@ -1,9 +1,10 @@
 uid: SR-0080
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-4.1-001
-text: Conduct periodic monitoring of AI-generated content for privacy risks; address any possible
-  instances of PII or sensitive data exposure.
+text: Conduct periodic monitoring of AI-generated content for privacy risks; address
+  any possible instances of PII or sensitive data exposure.
+normative: true
 links:
 - target: UR-0022
   type: implements

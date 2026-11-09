@@ -1,9 +1,10 @@
 uid: SR-0081
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-4.1-002
-text: Implement processes for responding to potential intellectual property infringement claims
-  or other rights.
+text: Implement processes for responding to potential intellectual property infringement
+  claims or other rights.
+normative: true
 links:
 - target: UR-0022
   type: implements

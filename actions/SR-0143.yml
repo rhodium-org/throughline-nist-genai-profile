@@ -1,8 +1,9 @@
 uid: SR-0143
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.8-004
 text: Verify adequacy of GAI system user instructions through user testing.
+normative: true
 links:
 - target: UR-0032
   type: implements

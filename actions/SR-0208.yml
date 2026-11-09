@@ -1,11 +1,12 @@
 uid: SR-0208
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-4.2-002
-text: Practice and follow incident response plans for addressing the generation of inappropriate
-  or harmful content and adapt processes based on findings to prevent future occurrences. Conduct
-  post-mortem analyses of incidents with relevant AI Actors, to understand the root causes and
-  implement preventive measures.
+text: Practice and follow incident response plans for addressing the generation of
+  inappropriate or harmful content and adapt processes based on findings to prevent
+  future occurrences. Conduct post-mortem analyses of incidents with relevant AI
+  Actors, to understand the root causes and implement preventive measures.
+normative: true
 links:
 - target: UR-0048
   type: implements

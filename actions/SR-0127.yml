@@ -1,9 +1,10 @@
 uid: SR-0127
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.6-004
-text: 'Review GAI system outputs for validity and safety: Review generated code to assess risks
-  that may arise from unreliable downstream decision-making.'
+text: 'Review GAI system outputs for validity and safety: Review generated code to
+  assess risks that may arise from unreliable downstream decision-making.'
+normative: true
 links:
 - target: UR-0030
   type: implements

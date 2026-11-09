@@ -1,10 +1,11 @@
 uid: SR-0197
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-3.2-007
-text: Leverage feedback and recommendations from organizational boards or committees related
-  to the deployment of GAI applications and content provenance when using third-party pre-trained
-  models.
+text: Leverage feedback and recommendations from organizational boards or committees
+  related to the deployment of GAI applications and content provenance when using
+  third-party pre-trained models.
+normative: true
 links:
 - target: UR-0046
   type: implements

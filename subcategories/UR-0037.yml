@@ -1,9 +1,10 @@
 uid: UR-0037
 type: user_requirement
-status: approved
+status: proposed
 title: MEASURE 2.13
-text: Effectiveness of the employed TEVV metrics and processes in the MEASURE function are evaluated
-  and documented.
+text: Effectiveness of the employed TEVV metrics and processes in the MEASURE function
+  are evaluated and documented.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

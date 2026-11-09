@@ -1,9 +1,10 @@
 uid: SR-0177
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-2.2-006
-text: Use feedback from internal and external AI Actors, users, individuals, and communities,
-  to assess impact of AI-generated content.
+text: Use feedback from internal and external AI Actors, users, individuals, and
+  communities, to assess impact of AI-generated content.
+normative: true
 links:
 - target: UR-0042
   type: implements

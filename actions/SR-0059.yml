@@ -1,10 +1,11 @@
 uid: SR-0059
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MP-1.1-001
-text: When identifying intended purposes, consider factors such as internal vs. external use,
-  narrow vs. broad application scope, fine-tuning, and varieties of data sources (e.g., grounding,
-  retrieval-augmented generation).
+text: When identifying intended purposes, consider factors such as internal vs. external
+  use, narrow vs. broad application scope, fine-tuning, and varieties of data sources
+  (e.g., grounding, retrieval-augmented generation).
+normative: true
 links:
 - target: UR-0016
   type: implements

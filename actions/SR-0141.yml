@@ -1,8 +1,9 @@
 uid: SR-0141
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.8-002
 text: Document the instructions given to data annotators or AI red-teamers.
+normative: true
 links:
 - target: UR-0032
   type: implements

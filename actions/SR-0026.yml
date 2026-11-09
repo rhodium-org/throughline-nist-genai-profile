@@ -1,10 +1,11 @@
 uid: SR-0026
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-3.2-001
-text: Policies are in place to bolster oversight of GAI systems with independent evaluations
-  or assessments of GAI models or systems where the type and robustness of evaluations are proportional
-  to the identified risks.
+text: Policies are in place to bolster oversight of GAI systems with independent
+  evaluations or assessments of GAI models or systems where the type and robustness
+  of evaluations are proportional to the identified risks.
+normative: true
 links:
 - target: UR-0009
   type: implements

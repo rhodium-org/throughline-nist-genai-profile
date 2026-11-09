@@ -1,9 +1,10 @@
 uid: SR-0190
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-3.1-005
-text: Review various transparency artifacts (e.g., system cards and model cards) for third-party
-  models.
+text: Review various transparency artifacts (e.g., system cards and model cards)
+  for third-party models.
+normative: true
 links:
 - target: UR-0045
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0162
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-3.3-003
-text: Evaluate potential biases and stereotypes that could emerge from the AI- generated content
-  using appropriate methodologies including computational testing methods as well as evaluating
-  structured feedback input.
+text: Evaluate potential biases and stereotypes that could emerge from the AI- generated
+  content using appropriate methodologies including computational testing methods
+  as well as evaluating structured feedback input.
+normative: true
 links:
 - target: UR-0039
   type: implements

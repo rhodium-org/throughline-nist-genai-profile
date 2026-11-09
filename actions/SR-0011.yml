@@ -1,9 +1,10 @@
 uid: SR-0011
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 GV-1.4-001
-text: Establish policies and mechanisms to prevent GAI systems from generating CSAM, NCII or
-  content that violates the law.
+text: Establish policies and mechanisms to prevent GAI systems from generating CSAM,
+  NCII or content that violates the law.
+normative: true
 links:
 - target: UR-0004
   type: implements

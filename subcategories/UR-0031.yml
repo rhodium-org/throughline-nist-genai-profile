@@ -1,9 +1,10 @@
 uid: UR-0031
 type: user_requirement
-status: approved
+status: proposed
 title: MEASURE 2.7
-text: AI system security and resilience - as identified in the MAP function - are evaluated
-  and documented.
+text: AI system security and resilience - as identified in the MAP function - are
+  evaluated and documented.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

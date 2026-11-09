@@ -1,8 +1,10 @@
 uid: SR-0173
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MG-2.2-002
-text: Document training data sources to trace the origin and provenance of AI- generated content.
+text: Document training data sources to trace the origin and provenance of AI- generated
+  content.
+normative: true
 links:
 - target: UR-0042
   type: implements

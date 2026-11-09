@@ -1,10 +1,11 @@
 uid: SR-0129
 type: system_requirement
-status: approved
+status: proposed
 title: NIST AI 600-1 MS-2.6-006
-text: Verify that systems properly handle queries that may give rise to inappropriate, malicious,
-  or illegal usage, including facilitating manipulation, extortion, targeted impersonation,
-  cyber-attacks, and weapons creation.
+text: Verify that systems properly handle queries that may give rise to inappropriate,
+  malicious, or illegal usage, including facilitating manipulation, extortion, targeted
+  impersonation, cyber-attacks, and weapons creation.
+normative: true
 links:
 - target: UR-0030
   type: implements
